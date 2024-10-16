@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue" value="RiderCppLiveTemplatesSettings" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=26AEB2AC3D6873478D13DB545CEB30E6/Text/@EntryValue" value="for (int $INDEX$ = 0; $INDEX$ &lt; $MAX$; $INDEX$++)&#10;{&#10;  $SELECTION$$END$&#10;}" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=D44144EE6285F44D94D7484128770DEC/Text/@EntryValue" value="for (int $INDEX$ = $MAX$ - 1; $INDEX$ &gt;= 0 ; $INDEX$--)&#10;{&#10;  $SELECTION$$END$&#10;}" type="string" />
+  </component>
+  <component name="CMakePythonSetting">
+    <option name="pythonIntegrationState" value="YES" />
+  </component>
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+  <component name="CidrRootsConfiguration">
+    <sourceRoots>
+      <file path="$PROJECT_DIR$/cources" />
+      <file path="$PROJECT_DIR$/headers" />
+    </sourceRoots>
+  </component>
+</project>
