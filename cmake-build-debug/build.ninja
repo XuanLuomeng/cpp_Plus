@@ -856,6 +856,482 @@ build string_substr.exe: CXX_EXECUTABLE_LINKER__string_substr_Debug CMakeFiles/s
   TARGET_IMPLIB = libstring_substr.dll.a
   TARGET_PDB = string_substr.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target vector_structure
+
+
+#############################################
+# Order-only phony target for vector_structure
+
+build cmake_object_order_depends_target_vector_structure: phony || .
+
+build CMakeFiles/vector_structure.dir/cources/standard_template_library/vector_container/vector_structure.cpp.obj: CXX_COMPILER__vector_structure_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/vector_container/vector_structure.cpp || cmake_object_order_depends_target_vector_structure
+  DEP_FILE = CMakeFiles\vector_structure.dir\cources\standard_template_library\vector_container\vector_structure.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\vector_structure.dir
+  OBJECT_FILE_DIR = CMakeFiles\vector_structure.dir\cources\standard_template_library\vector_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target vector_structure
+
+
+#############################################
+# Link the executable vector_structure.exe
+
+build vector_structure.exe: CXX_EXECUTABLE_LINKER__vector_structure_Debug CMakeFiles/vector_structure.dir/cources/standard_template_library/vector_container/vector_structure.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\vector_structure.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = vector_structure.exe
+  TARGET_IMPLIB = libvector_structure.dll.a
+  TARGET_PDB = vector_structure.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target vector_assign
+
+
+#############################################
+# Order-only phony target for vector_assign
+
+build cmake_object_order_depends_target_vector_assign: phony || .
+
+build CMakeFiles/vector_assign.dir/cources/standard_template_library/vector_container/vector_assign.cpp.obj: CXX_COMPILER__vector_assign_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/vector_container/vector_assign.cpp || cmake_object_order_depends_target_vector_assign
+  DEP_FILE = CMakeFiles\vector_assign.dir\cources\standard_template_library\vector_container\vector_assign.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\vector_assign.dir
+  OBJECT_FILE_DIR = CMakeFiles\vector_assign.dir\cources\standard_template_library\vector_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target vector_assign
+
+
+#############################################
+# Link the executable vector_assign.exe
+
+build vector_assign.exe: CXX_EXECUTABLE_LINKER__vector_assign_Debug CMakeFiles/vector_assign.dir/cources/standard_template_library/vector_container/vector_assign.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\vector_assign.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = vector_assign.exe
+  TARGET_IMPLIB = libvector_assign.dll.a
+  TARGET_PDB = vector_assign.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target vector_capacity_size
+
+
+#############################################
+# Order-only phony target for vector_capacity_size
+
+build cmake_object_order_depends_target_vector_capacity_size: phony || .
+
+build CMakeFiles/vector_capacity_size.dir/cources/standard_template_library/vector_container/vector_capacity_size.cpp.obj: CXX_COMPILER__vector_capacity_size_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/vector_container/vector_capacity_size.cpp || cmake_object_order_depends_target_vector_capacity_size
+  DEP_FILE = CMakeFiles\vector_capacity_size.dir\cources\standard_template_library\vector_container\vector_capacity_size.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\vector_capacity_size.dir
+  OBJECT_FILE_DIR = CMakeFiles\vector_capacity_size.dir\cources\standard_template_library\vector_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target vector_capacity_size
+
+
+#############################################
+# Link the executable vector_capacity_size.exe
+
+build vector_capacity_size.exe: CXX_EXECUTABLE_LINKER__vector_capacity_size_Debug CMakeFiles/vector_capacity_size.dir/cources/standard_template_library/vector_container/vector_capacity_size.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\vector_capacity_size.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = vector_capacity_size.exe
+  TARGET_IMPLIB = libvector_capacity_size.dll.a
+  TARGET_PDB = vector_capacity_size.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target vector_insert_erase
+
+
+#############################################
+# Order-only phony target for vector_insert_erase
+
+build cmake_object_order_depends_target_vector_insert_erase: phony || .
+
+build CMakeFiles/vector_insert_erase.dir/cources/standard_template_library/vector_container/vector_insert_erase.cpp.obj: CXX_COMPILER__vector_insert_erase_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/vector_container/vector_insert_erase.cpp || cmake_object_order_depends_target_vector_insert_erase
+  DEP_FILE = CMakeFiles\vector_insert_erase.dir\cources\standard_template_library\vector_container\vector_insert_erase.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\vector_insert_erase.dir
+  OBJECT_FILE_DIR = CMakeFiles\vector_insert_erase.dir\cources\standard_template_library\vector_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target vector_insert_erase
+
+
+#############################################
+# Link the executable vector_insert_erase.exe
+
+build vector_insert_erase.exe: CXX_EXECUTABLE_LINKER__vector_insert_erase_Debug CMakeFiles/vector_insert_erase.dir/cources/standard_template_library/vector_container/vector_insert_erase.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\vector_insert_erase.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = vector_insert_erase.exe
+  TARGET_IMPLIB = libvector_insert_erase.dll.a
+  TARGET_PDB = vector_insert_erase.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target vector_at
+
+
+#############################################
+# Order-only phony target for vector_at
+
+build cmake_object_order_depends_target_vector_at: phony || .
+
+build CMakeFiles/vector_at.dir/cources/standard_template_library/vector_container/vector_at.cpp.obj: CXX_COMPILER__vector_at_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/vector_container/vector_at.cpp || cmake_object_order_depends_target_vector_at
+  DEP_FILE = CMakeFiles\vector_at.dir\cources\standard_template_library\vector_container\vector_at.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\vector_at.dir
+  OBJECT_FILE_DIR = CMakeFiles\vector_at.dir\cources\standard_template_library\vector_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target vector_at
+
+
+#############################################
+# Link the executable vector_at.exe
+
+build vector_at.exe: CXX_EXECUTABLE_LINKER__vector_at_Debug CMakeFiles/vector_at.dir/cources/standard_template_library/vector_container/vector_at.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\vector_at.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = vector_at.exe
+  TARGET_IMPLIB = libvector_at.dll.a
+  TARGET_PDB = vector_at.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target vector_swap
+
+
+#############################################
+# Order-only phony target for vector_swap
+
+build cmake_object_order_depends_target_vector_swap: phony || .
+
+build CMakeFiles/vector_swap.dir/cources/standard_template_library/vector_container/vector_swap.cpp.obj: CXX_COMPILER__vector_swap_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/vector_container/vector_swap.cpp || cmake_object_order_depends_target_vector_swap
+  DEP_FILE = CMakeFiles\vector_swap.dir\cources\standard_template_library\vector_container\vector_swap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\vector_swap.dir
+  OBJECT_FILE_DIR = CMakeFiles\vector_swap.dir\cources\standard_template_library\vector_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target vector_swap
+
+
+#############################################
+# Link the executable vector_swap.exe
+
+build vector_swap.exe: CXX_EXECUTABLE_LINKER__vector_swap_Debug CMakeFiles/vector_swap.dir/cources/standard_template_library/vector_container/vector_swap.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\vector_swap.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = vector_swap.exe
+  TARGET_IMPLIB = libvector_swap.dll.a
+  TARGET_PDB = vector_swap.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target vector_reserve
+
+
+#############################################
+# Order-only phony target for vector_reserve
+
+build cmake_object_order_depends_target_vector_reserve: phony || .
+
+build CMakeFiles/vector_reserve.dir/cources/standard_template_library/vector_container/vector_reserve.cpp.obj: CXX_COMPILER__vector_reserve_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/vector_container/vector_reserve.cpp || cmake_object_order_depends_target_vector_reserve
+  DEP_FILE = CMakeFiles\vector_reserve.dir\cources\standard_template_library\vector_container\vector_reserve.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\vector_reserve.dir
+  OBJECT_FILE_DIR = CMakeFiles\vector_reserve.dir\cources\standard_template_library\vector_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target vector_reserve
+
+
+#############################################
+# Link the executable vector_reserve.exe
+
+build vector_reserve.exe: CXX_EXECUTABLE_LINKER__vector_reserve_Debug CMakeFiles/vector_reserve.dir/cources/standard_template_library/vector_container/vector_reserve.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\vector_reserve.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = vector_reserve.exe
+  TARGET_IMPLIB = libvector_reserve.dll.a
+  TARGET_PDB = vector_reserve.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target deque_structure
+
+
+#############################################
+# Order-only phony target for deque_structure
+
+build cmake_object_order_depends_target_deque_structure: phony || .
+
+build CMakeFiles/deque_structure.dir/cources/standard_template_library/deque_container/deque_structure.cpp.obj: CXX_COMPILER__deque_structure_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/deque_container/deque_structure.cpp || cmake_object_order_depends_target_deque_structure
+  DEP_FILE = CMakeFiles\deque_structure.dir\cources\standard_template_library\deque_container\deque_structure.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\deque_structure.dir
+  OBJECT_FILE_DIR = CMakeFiles\deque_structure.dir\cources\standard_template_library\deque_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target deque_structure
+
+
+#############################################
+# Link the executable deque_structure.exe
+
+build deque_structure.exe: CXX_EXECUTABLE_LINKER__deque_structure_Debug CMakeFiles/deque_structure.dir/cources/standard_template_library/deque_container/deque_structure.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\deque_structure.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = deque_structure.exe
+  TARGET_IMPLIB = libdeque_structure.dll.a
+  TARGET_PDB = deque_structure.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target deque_assign
+
+
+#############################################
+# Order-only phony target for deque_assign
+
+build cmake_object_order_depends_target_deque_assign: phony || .
+
+build CMakeFiles/deque_assign.dir/cources/standard_template_library/deque_container/deque_assign.cpp.obj: CXX_COMPILER__deque_assign_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/deque_container/deque_assign.cpp || cmake_object_order_depends_target_deque_assign
+  DEP_FILE = CMakeFiles\deque_assign.dir\cources\standard_template_library\deque_container\deque_assign.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\deque_assign.dir
+  OBJECT_FILE_DIR = CMakeFiles\deque_assign.dir\cources\standard_template_library\deque_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target deque_assign
+
+
+#############################################
+# Link the executable deque_assign.exe
+
+build deque_assign.exe: CXX_EXECUTABLE_LINKER__deque_assign_Debug CMakeFiles/deque_assign.dir/cources/standard_template_library/deque_container/deque_assign.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\deque_assign.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = deque_assign.exe
+  TARGET_IMPLIB = libdeque_assign.dll.a
+  TARGET_PDB = deque_assign.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target deque_compare
+
+
+#############################################
+# Order-only phony target for deque_compare
+
+build cmake_object_order_depends_target_deque_compare: phony || .
+
+build CMakeFiles/deque_compare.dir/cources/standard_template_library/deque_container/deque_size.cpp.obj: CXX_COMPILER__deque_compare_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/deque_container/deque_size.cpp || cmake_object_order_depends_target_deque_compare
+  DEP_FILE = CMakeFiles\deque_compare.dir\cources\standard_template_library\deque_container\deque_size.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\deque_compare.dir
+  OBJECT_FILE_DIR = CMakeFiles\deque_compare.dir\cources\standard_template_library\deque_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target deque_compare
+
+
+#############################################
+# Link the executable deque_compare.exe
+
+build deque_compare.exe: CXX_EXECUTABLE_LINKER__deque_compare_Debug CMakeFiles/deque_compare.dir/cources/standard_template_library/deque_container/deque_size.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\deque_compare.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = deque_compare.exe
+  TARGET_IMPLIB = libdeque_compare.dll.a
+  TARGET_PDB = deque_compare.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target deque_insert_erase
+
+
+#############################################
+# Order-only phony target for deque_insert_erase
+
+build cmake_object_order_depends_target_deque_insert_erase: phony || .
+
+build CMakeFiles/deque_insert_erase.dir/cources/standard_template_library/deque_container/deque_insert_erase.cpp.obj: CXX_COMPILER__deque_insert_erase_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/deque_container/deque_insert_erase.cpp || cmake_object_order_depends_target_deque_insert_erase
+  DEP_FILE = CMakeFiles\deque_insert_erase.dir\cources\standard_template_library\deque_container\deque_insert_erase.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\deque_insert_erase.dir
+  OBJECT_FILE_DIR = CMakeFiles\deque_insert_erase.dir\cources\standard_template_library\deque_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target deque_insert_erase
+
+
+#############################################
+# Link the executable deque_insert_erase.exe
+
+build deque_insert_erase.exe: CXX_EXECUTABLE_LINKER__deque_insert_erase_Debug CMakeFiles/deque_insert_erase.dir/cources/standard_template_library/deque_container/deque_insert_erase.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\deque_insert_erase.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = deque_insert_erase.exe
+  TARGET_IMPLIB = libdeque_insert_erase.dll.a
+  TARGET_PDB = deque_insert_erase.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target deque_at
+
+
+#############################################
+# Order-only phony target for deque_at
+
+build cmake_object_order_depends_target_deque_at: phony || .
+
+build CMakeFiles/deque_at.dir/cources/standard_template_library/deque_container/deque_at.cpp.obj: CXX_COMPILER__deque_at_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/deque_container/deque_at.cpp || cmake_object_order_depends_target_deque_at
+  DEP_FILE = CMakeFiles\deque_at.dir\cources\standard_template_library\deque_container\deque_at.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\deque_at.dir
+  OBJECT_FILE_DIR = CMakeFiles\deque_at.dir\cources\standard_template_library\deque_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target deque_at
+
+
+#############################################
+# Link the executable deque_at.exe
+
+build deque_at.exe: CXX_EXECUTABLE_LINKER__deque_at_Debug CMakeFiles/deque_at.dir/cources/standard_template_library/deque_container/deque_at.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\deque_at.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = deque_at.exe
+  TARGET_IMPLIB = libdeque_at.dll.a
+  TARGET_PDB = deque_at.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target deque_sort
+
+
+#############################################
+# Order-only phony target for deque_sort
+
+build cmake_object_order_depends_target_deque_sort: phony || .
+
+build CMakeFiles/deque_sort.dir/cources/standard_template_library/deque_container/deque_sort.cpp.obj: CXX_COMPILER__deque_sort_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/deque_container/deque_sort.cpp || cmake_object_order_depends_target_deque_sort
+  DEP_FILE = CMakeFiles\deque_sort.dir\cources\standard_template_library\deque_container\deque_sort.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\deque_sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\deque_sort.dir\cources\standard_template_library\deque_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target deque_sort
+
+
+#############################################
+# Link the executable deque_sort.exe
+
+build deque_sort.exe: CXX_EXECUTABLE_LINKER__deque_sort_Debug CMakeFiles/deque_sort.dir/cources/standard_template_library/deque_container/deque_sort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\deque_sort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = deque_sort.exe
+  TARGET_IMPLIB = libdeque_sort.dll.a
+  TARGET_PDB = deque_sort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target score
+
+
+#############################################
+# Order-only phony target for score
+
+build cmake_object_order_depends_target_score: phony || .
+
+build CMakeFiles/score.dir/cources/standard_template_library/case/score.cpp.obj: CXX_COMPILER__score_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/case/score.cpp || cmake_object_order_depends_target_score
+  DEP_FILE = CMakeFiles\score.dir\cources\standard_template_library\case\score.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\score.dir
+  OBJECT_FILE_DIR = CMakeFiles\score.dir\cources\standard_template_library\case
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target score
+
+
+#############################################
+# Link the executable score.exe
+
+build score.exe: CXX_EXECUTABLE_LINKER__score_Debug CMakeFiles/score.dir/cources/standard_template_library/case/score.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\score.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = score.exe
+  TARGET_IMPLIB = libscore.dll.a
+  TARGET_PDB = score.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -889,6 +1365,20 @@ build container_nest: phony container_nest.exe
 build container_save_data: phony container_save_data.exe
 
 build container_save_person_data: phony container_save_person_data.exe
+
+build deque_assign: phony deque_assign.exe
+
+build deque_at: phony deque_at.exe
+
+build deque_compare: phony deque_compare.exe
+
+build deque_insert_erase: phony deque_insert_erase.exe
+
+build deque_sort: phony deque_sort.exe
+
+build deque_structure: phony deque_structure.exe
+
+build score: phony score.exe
 
 build string_append: phony string_append.exe
 
@@ -930,6 +1420,20 @@ build templete_element: phony templete_element.exe
 
 build templete_sort: phony templete_sort.exe
 
+build vector_assign: phony vector_assign.exe
+
+build vector_at: phony vector_at.exe
+
+build vector_capacity_size: phony vector_capacity_size.exe
+
+build vector_insert_erase: phony vector_insert_erase.exe
+
+build vector_reserve: phony vector_reserve.exe
+
+build vector_structure: phony vector_structure.exe
+
+build vector_swap: phony vector_swap.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -938,7 +1442,7 @@ build templete_sort: phony templete_sort.exe
 #############################################
 # Folder: E:/Cproject/cpp_Plus/cmake-build-debug
 
-build all: phony templete_element.exe templete_sort.exe template_regulation.exe template_lemit.exe template_class.exe template_class_function.exe template_classfunction_creation.exe template_class_as_func_para.exe template_class_extend.exe template_class_outer_func.exe template_class_divide.exe template_class_friend.exe MyArray.exe container_save_data.exe container_save_person_data.exe container_nest.exe string_element.exe string_assign.exe string_append.exe string_find_replace.exe string_compare.exe string_at.exe string_insert_erase.exe string_substr.exe
+build all: phony templete_element.exe templete_sort.exe template_regulation.exe template_lemit.exe template_class.exe template_class_function.exe template_classfunction_creation.exe template_class_as_func_para.exe template_class_extend.exe template_class_outer_func.exe template_class_divide.exe template_class_friend.exe MyArray.exe container_save_data.exe container_save_person_data.exe container_nest.exe string_element.exe string_assign.exe string_append.exe string_find_replace.exe string_compare.exe string_at.exe string_insert_erase.exe string_substr.exe vector_structure.exe vector_assign.exe vector_capacity_size.exe vector_insert_erase.exe vector_at.exe vector_swap.exe vector_reserve.exe deque_structure.exe deque_assign.exe deque_compare.exe deque_insert_erase.exe deque_at.exe deque_sort.exe score.exe
 
 # =============================================================================
 # Built-in targets

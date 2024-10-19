@@ -1,0 +1,9 @@
+function
+    双端数组，可对头部进行删除与插入
+
+deque vs vector
+    vector头插删在数据量越大，效率越低，deque比vector快
+    vector访问元素速度比deque快
+
+deque operation principle
+    deque内部有中控器来维护缓冲区内容，缓冲区中存放真实数据；deque支持随机访问
