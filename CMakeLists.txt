@@ -45,3 +45,6 @@ add_executable(deque_insert_erase cources/standard_template_library/deque_contai
 add_executable(deque_at cources/standard_template_library/deque_container/deque_at.cpp)
 add_executable(deque_sort cources/standard_template_library/deque_container/deque_sort.cpp)
 add_executable(score cources/standard_template_library/case/score.cpp)
+add_executable(stack_element cources/standard_template_library/stack_container/stack_element.cpp)
+add_executable(queue_element cources/standard_template_library/queue_container/queue_element.cpp)
+add_executable(list_element cources/standard_template_library/list_container/list_element.cpp)

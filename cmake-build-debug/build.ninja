@@ -1332,6 +1332,108 @@ build score.exe: CXX_EXECUTABLE_LINKER__score_Debug CMakeFiles/score.dir/cources
   TARGET_IMPLIB = libscore.dll.a
   TARGET_PDB = score.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target stack_element
+
+
+#############################################
+# Order-only phony target for stack_element
+
+build cmake_object_order_depends_target_stack_element: phony || .
+
+build CMakeFiles/stack_element.dir/cources/standard_template_library/stack_container/stack_element.cpp.obj: CXX_COMPILER__stack_element_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/stack_container/stack_element.cpp || cmake_object_order_depends_target_stack_element
+  DEP_FILE = CMakeFiles\stack_element.dir\cources\standard_template_library\stack_container\stack_element.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\stack_element.dir
+  OBJECT_FILE_DIR = CMakeFiles\stack_element.dir\cources\standard_template_library\stack_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target stack_element
+
+
+#############################################
+# Link the executable stack_element.exe
+
+build stack_element.exe: CXX_EXECUTABLE_LINKER__stack_element_Debug CMakeFiles/stack_element.dir/cources/standard_template_library/stack_container/stack_element.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\stack_element.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = stack_element.exe
+  TARGET_IMPLIB = libstack_element.dll.a
+  TARGET_PDB = stack_element.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target queue_element
+
+
+#############################################
+# Order-only phony target for queue_element
+
+build cmake_object_order_depends_target_queue_element: phony || .
+
+build CMakeFiles/queue_element.dir/cources/standard_template_library/queue_container/queue_element.cpp.obj: CXX_COMPILER__queue_element_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/queue_container/queue_element.cpp || cmake_object_order_depends_target_queue_element
+  DEP_FILE = CMakeFiles\queue_element.dir\cources\standard_template_library\queue_container\queue_element.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\queue_element.dir
+  OBJECT_FILE_DIR = CMakeFiles\queue_element.dir\cources\standard_template_library\queue_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target queue_element
+
+
+#############################################
+# Link the executable queue_element.exe
+
+build queue_element.exe: CXX_EXECUTABLE_LINKER__queue_element_Debug CMakeFiles/queue_element.dir/cources/standard_template_library/queue_container/queue_element.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\queue_element.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = queue_element.exe
+  TARGET_IMPLIB = libqueue_element.dll.a
+  TARGET_PDB = queue_element.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target list_element
+
+
+#############################################
+# Order-only phony target for list_element
+
+build cmake_object_order_depends_target_list_element: phony || .
+
+build CMakeFiles/list_element.dir/cources/standard_template_library/list_container/list_element.cpp.obj: CXX_COMPILER__list_element_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/list_container/list_element.cpp || cmake_object_order_depends_target_list_element
+  DEP_FILE = CMakeFiles\list_element.dir\cources\standard_template_library\list_container\list_element.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\list_element.dir
+  OBJECT_FILE_DIR = CMakeFiles\list_element.dir\cources\standard_template_library\list_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target list_element
+
+
+#############################################
+# Link the executable list_element.exe
+
+build list_element.exe: CXX_EXECUTABLE_LINKER__list_element_Debug CMakeFiles/list_element.dir/cources/standard_template_library/list_container/list_element.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\list_element.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = list_element.exe
+  TARGET_IMPLIB = liblist_element.dll.a
+  TARGET_PDB = list_element.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1378,7 +1480,13 @@ build deque_sort: phony deque_sort.exe
 
 build deque_structure: phony deque_structure.exe
 
+build list_element: phony list_element.exe
+
+build queue_element: phony queue_element.exe
+
 build score: phony score.exe
+
+build stack_element: phony stack_element.exe
 
 build string_append: phony string_append.exe
 
@@ -1442,7 +1550,7 @@ build vector_swap: phony vector_swap.exe
 #############################################
 # Folder: E:/Cproject/cpp_Plus/cmake-build-debug
 
-build all: phony templete_element.exe templete_sort.exe template_regulation.exe template_lemit.exe template_class.exe template_class_function.exe template_classfunction_creation.exe template_class_as_func_para.exe template_class_extend.exe template_class_outer_func.exe template_class_divide.exe template_class_friend.exe MyArray.exe container_save_data.exe container_save_person_data.exe container_nest.exe string_element.exe string_assign.exe string_append.exe string_find_replace.exe string_compare.exe string_at.exe string_insert_erase.exe string_substr.exe vector_structure.exe vector_assign.exe vector_capacity_size.exe vector_insert_erase.exe vector_at.exe vector_swap.exe vector_reserve.exe deque_structure.exe deque_assign.exe deque_compare.exe deque_insert_erase.exe deque_at.exe deque_sort.exe score.exe
+build all: phony templete_element.exe templete_sort.exe template_regulation.exe template_lemit.exe template_class.exe template_class_function.exe template_classfunction_creation.exe template_class_as_func_para.exe template_class_extend.exe template_class_outer_func.exe template_class_divide.exe template_class_friend.exe MyArray.exe container_save_data.exe container_save_person_data.exe container_nest.exe string_element.exe string_assign.exe string_append.exe string_find_replace.exe string_compare.exe string_at.exe string_insert_erase.exe string_substr.exe vector_structure.exe vector_assign.exe vector_capacity_size.exe vector_insert_erase.exe vector_at.exe vector_swap.exe vector_reserve.exe deque_structure.exe deque_assign.exe deque_compare.exe deque_insert_erase.exe deque_at.exe deque_sort.exe score.exe stack_element.exe queue_element.exe list_element.exe
 
 # =============================================================================
 # Built-in targets

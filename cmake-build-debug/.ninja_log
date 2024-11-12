@@ -72,9 +72,9 @@
 6	577	7510582853033226	CMakeFiles/deque_at.dir/cources/standard_template_library/deque_container/deque_at.cpp.obj	707ca7a41c88479a
 578	709	7510582858745888	deque_at.exe	a20b03c7e8e4e71a
 685	850	7510584854696767	deque_sort.exe	bcfb1118790260c3
-3	561	7510589429144088	CMakeFiles/score.dir/cources/standard_template_library/case/score.cpp.obj	bc425e7784134c82
-561	711	7510589434721799	score.exe	584f995a1367d2f8
-6	568	7510592458885375	CMakeFiles/score.dir/cources/standard_template_library/case/score.cpp.obj	bc425e7784134c82
-568	695	7510592464514100	score.exe	584f995a1367d2f8
 6	567	7510593017064522	CMakeFiles/score.dir/cources/standard_template_library/case/score.cpp.obj	bc425e7784134c82
 567	692	7510593022681534	score.exe	584f995a1367d2f8
+6	577	7531323334698481	CMakeFiles/stack_element.dir/cources/standard_template_library/stack_container/stack_element.cpp.obj	3c0107038edeeccb
+577	699	7531323340409498	stack_element.exe	7f317651b0b2c1ac
+6	771	7531326661265730	CMakeFiles/queue_element.dir/cources/standard_template_library/queue_container/queue_element.cpp.obj	740dd6f65f0780d7
+772	1414	7531326668927082	queue_element.exe	64e2e28b8140f0bd
