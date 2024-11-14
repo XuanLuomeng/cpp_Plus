@@ -39,5 +39,12 @@ E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/score.dir
 E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/stack_element.dir
 E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/queue_element.dir
 E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/list_element.dir
+E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/list_construct.dir
+E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/list_assign_swap.dir
+E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/list_size.dir
+E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/list_insert_clear.dir
+E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/list_get.dir
+E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/list_sort_reverse.dir
+E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/list_sort_case.dir
 E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/rebuild_cache.dir

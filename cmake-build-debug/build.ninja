@@ -1434,6 +1434,244 @@ build list_element.exe: CXX_EXECUTABLE_LINKER__list_element_Debug CMakeFiles/lis
   TARGET_IMPLIB = liblist_element.dll.a
   TARGET_PDB = list_element.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target list_construct
+
+
+#############################################
+# Order-only phony target for list_construct
+
+build cmake_object_order_depends_target_list_construct: phony || .
+
+build CMakeFiles/list_construct.dir/cources/standard_template_library/list_container/list_construct.cpp.obj: CXX_COMPILER__list_construct_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/list_container/list_construct.cpp || cmake_object_order_depends_target_list_construct
+  DEP_FILE = CMakeFiles\list_construct.dir\cources\standard_template_library\list_container\list_construct.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\list_construct.dir
+  OBJECT_FILE_DIR = CMakeFiles\list_construct.dir\cources\standard_template_library\list_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target list_construct
+
+
+#############################################
+# Link the executable list_construct.exe
+
+build list_construct.exe: CXX_EXECUTABLE_LINKER__list_construct_Debug CMakeFiles/list_construct.dir/cources/standard_template_library/list_container/list_construct.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\list_construct.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = list_construct.exe
+  TARGET_IMPLIB = liblist_construct.dll.a
+  TARGET_PDB = list_construct.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target list_assign_swap
+
+
+#############################################
+# Order-only phony target for list_assign_swap
+
+build cmake_object_order_depends_target_list_assign_swap: phony || .
+
+build CMakeFiles/list_assign_swap.dir/cources/standard_template_library/list_container/list_assign_swap.cpp.obj: CXX_COMPILER__list_assign_swap_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/list_container/list_assign_swap.cpp || cmake_object_order_depends_target_list_assign_swap
+  DEP_FILE = CMakeFiles\list_assign_swap.dir\cources\standard_template_library\list_container\list_assign_swap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\list_assign_swap.dir
+  OBJECT_FILE_DIR = CMakeFiles\list_assign_swap.dir\cources\standard_template_library\list_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target list_assign_swap
+
+
+#############################################
+# Link the executable list_assign_swap.exe
+
+build list_assign_swap.exe: CXX_EXECUTABLE_LINKER__list_assign_swap_Debug CMakeFiles/list_assign_swap.dir/cources/standard_template_library/list_container/list_assign_swap.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\list_assign_swap.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = list_assign_swap.exe
+  TARGET_IMPLIB = liblist_assign_swap.dll.a
+  TARGET_PDB = list_assign_swap.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target list_size
+
+
+#############################################
+# Order-only phony target for list_size
+
+build cmake_object_order_depends_target_list_size: phony || .
+
+build CMakeFiles/list_size.dir/cources/standard_template_library/list_container/list_size.cpp.obj: CXX_COMPILER__list_size_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/list_container/list_size.cpp || cmake_object_order_depends_target_list_size
+  DEP_FILE = CMakeFiles\list_size.dir\cources\standard_template_library\list_container\list_size.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\list_size.dir
+  OBJECT_FILE_DIR = CMakeFiles\list_size.dir\cources\standard_template_library\list_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target list_size
+
+
+#############################################
+# Link the executable list_size.exe
+
+build list_size.exe: CXX_EXECUTABLE_LINKER__list_size_Debug CMakeFiles/list_size.dir/cources/standard_template_library/list_container/list_size.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\list_size.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = list_size.exe
+  TARGET_IMPLIB = liblist_size.dll.a
+  TARGET_PDB = list_size.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target list_insert_clear
+
+
+#############################################
+# Order-only phony target for list_insert_clear
+
+build cmake_object_order_depends_target_list_insert_clear: phony || .
+
+build CMakeFiles/list_insert_clear.dir/cources/standard_template_library/list_container/list_insert_clear.cpp.obj: CXX_COMPILER__list_insert_clear_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/list_container/list_insert_clear.cpp || cmake_object_order_depends_target_list_insert_clear
+  DEP_FILE = CMakeFiles\list_insert_clear.dir\cources\standard_template_library\list_container\list_insert_clear.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\list_insert_clear.dir
+  OBJECT_FILE_DIR = CMakeFiles\list_insert_clear.dir\cources\standard_template_library\list_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target list_insert_clear
+
+
+#############################################
+# Link the executable list_insert_clear.exe
+
+build list_insert_clear.exe: CXX_EXECUTABLE_LINKER__list_insert_clear_Debug CMakeFiles/list_insert_clear.dir/cources/standard_template_library/list_container/list_insert_clear.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\list_insert_clear.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = list_insert_clear.exe
+  TARGET_IMPLIB = liblist_insert_clear.dll.a
+  TARGET_PDB = list_insert_clear.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target list_get
+
+
+#############################################
+# Order-only phony target for list_get
+
+build cmake_object_order_depends_target_list_get: phony || .
+
+build CMakeFiles/list_get.dir/cources/standard_template_library/list_container/list_get.cpp.obj: CXX_COMPILER__list_get_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/list_container/list_get.cpp || cmake_object_order_depends_target_list_get
+  DEP_FILE = CMakeFiles\list_get.dir\cources\standard_template_library\list_container\list_get.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\list_get.dir
+  OBJECT_FILE_DIR = CMakeFiles\list_get.dir\cources\standard_template_library\list_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target list_get
+
+
+#############################################
+# Link the executable list_get.exe
+
+build list_get.exe: CXX_EXECUTABLE_LINKER__list_get_Debug CMakeFiles/list_get.dir/cources/standard_template_library/list_container/list_get.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\list_get.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = list_get.exe
+  TARGET_IMPLIB = liblist_get.dll.a
+  TARGET_PDB = list_get.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target list_sort_reverse
+
+
+#############################################
+# Order-only phony target for list_sort_reverse
+
+build cmake_object_order_depends_target_list_sort_reverse: phony || .
+
+build CMakeFiles/list_sort_reverse.dir/cources/standard_template_library/list_container/list_sort_reverse.cpp.obj: CXX_COMPILER__list_sort_reverse_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/list_container/list_sort_reverse.cpp || cmake_object_order_depends_target_list_sort_reverse
+  DEP_FILE = CMakeFiles\list_sort_reverse.dir\cources\standard_template_library\list_container\list_sort_reverse.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\list_sort_reverse.dir
+  OBJECT_FILE_DIR = CMakeFiles\list_sort_reverse.dir\cources\standard_template_library\list_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target list_sort_reverse
+
+
+#############################################
+# Link the executable list_sort_reverse.exe
+
+build list_sort_reverse.exe: CXX_EXECUTABLE_LINKER__list_sort_reverse_Debug CMakeFiles/list_sort_reverse.dir/cources/standard_template_library/list_container/list_sort_reverse.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\list_sort_reverse.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = list_sort_reverse.exe
+  TARGET_IMPLIB = liblist_sort_reverse.dll.a
+  TARGET_PDB = list_sort_reverse.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target list_sort_case
+
+
+#############################################
+# Order-only phony target for list_sort_case
+
+build cmake_object_order_depends_target_list_sort_case: phony || .
+
+build CMakeFiles/list_sort_case.dir/cources/standard_template_library/list_container/list_sort_case.cpp.obj: CXX_COMPILER__list_sort_case_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/list_container/list_sort_case.cpp || cmake_object_order_depends_target_list_sort_case
+  DEP_FILE = CMakeFiles\list_sort_case.dir\cources\standard_template_library\list_container\list_sort_case.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\list_sort_case.dir
+  OBJECT_FILE_DIR = CMakeFiles\list_sort_case.dir\cources\standard_template_library\list_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target list_sort_case
+
+
+#############################################
+# Link the executable list_sort_case.exe
+
+build list_sort_case.exe: CXX_EXECUTABLE_LINKER__list_sort_case_Debug CMakeFiles/list_sort_case.dir/cources/standard_template_library/list_container/list_sort_case.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\list_sort_case.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = list_sort_case.exe
+  TARGET_IMPLIB = liblist_sort_case.dll.a
+  TARGET_PDB = list_sort_case.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1480,7 +1718,21 @@ build deque_sort: phony deque_sort.exe
 
 build deque_structure: phony deque_structure.exe
 
+build list_assign_swap: phony list_assign_swap.exe
+
+build list_construct: phony list_construct.exe
+
 build list_element: phony list_element.exe
+
+build list_get: phony list_get.exe
+
+build list_insert_clear: phony list_insert_clear.exe
+
+build list_size: phony list_size.exe
+
+build list_sort_case: phony list_sort_case.exe
+
+build list_sort_reverse: phony list_sort_reverse.exe
 
 build queue_element: phony queue_element.exe
 
@@ -1550,7 +1802,7 @@ build vector_swap: phony vector_swap.exe
 #############################################
 # Folder: E:/Cproject/cpp_Plus/cmake-build-debug
 
-build all: phony templete_element.exe templete_sort.exe template_regulation.exe template_lemit.exe template_class.exe template_class_function.exe template_classfunction_creation.exe template_class_as_func_para.exe template_class_extend.exe template_class_outer_func.exe template_class_divide.exe template_class_friend.exe MyArray.exe container_save_data.exe container_save_person_data.exe container_nest.exe string_element.exe string_assign.exe string_append.exe string_find_replace.exe string_compare.exe string_at.exe string_insert_erase.exe string_substr.exe vector_structure.exe vector_assign.exe vector_capacity_size.exe vector_insert_erase.exe vector_at.exe vector_swap.exe vector_reserve.exe deque_structure.exe deque_assign.exe deque_compare.exe deque_insert_erase.exe deque_at.exe deque_sort.exe score.exe stack_element.exe queue_element.exe list_element.exe
+build all: phony templete_element.exe templete_sort.exe template_regulation.exe template_lemit.exe template_class.exe template_class_function.exe template_classfunction_creation.exe template_class_as_func_para.exe template_class_extend.exe template_class_outer_func.exe template_class_divide.exe template_class_friend.exe MyArray.exe container_save_data.exe container_save_person_data.exe container_nest.exe string_element.exe string_assign.exe string_append.exe string_find_replace.exe string_compare.exe string_at.exe string_insert_erase.exe string_substr.exe vector_structure.exe vector_assign.exe vector_capacity_size.exe vector_insert_erase.exe vector_at.exe vector_swap.exe vector_reserve.exe deque_structure.exe deque_assign.exe deque_compare.exe deque_insert_erase.exe deque_at.exe deque_sort.exe score.exe stack_element.exe queue_element.exe list_element.exe list_construct.exe list_assign_swap.exe list_size.exe list_insert_clear.exe list_get.exe list_sort_reverse.exe list_sort_case.exe
 
 # =============================================================================
 # Built-in targets
