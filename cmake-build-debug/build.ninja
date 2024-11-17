@@ -1672,6 +1672,550 @@ build list_sort_case.exe: CXX_EXECUTABLE_LINKER__list_sort_case_Debug CMakeFiles
   TARGET_IMPLIB = liblist_sort_case.dll.a
   TARGET_PDB = list_sort_case.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target set_construct
+
+
+#############################################
+# Order-only phony target for set_construct
+
+build cmake_object_order_depends_target_set_construct: phony || .
+
+build CMakeFiles/set_construct.dir/cources/standard_template_library/set_container/set_construct.cpp.obj: CXX_COMPILER__set_construct_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/set_container/set_construct.cpp || cmake_object_order_depends_target_set_construct
+  DEP_FILE = CMakeFiles\set_construct.dir\cources\standard_template_library\set_container\set_construct.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\set_construct.dir
+  OBJECT_FILE_DIR = CMakeFiles\set_construct.dir\cources\standard_template_library\set_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target set_construct
+
+
+#############################################
+# Link the executable set_construct.exe
+
+build set_construct.exe: CXX_EXECUTABLE_LINKER__set_construct_Debug CMakeFiles/set_construct.dir/cources/standard_template_library/set_container/set_construct.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\set_construct.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = set_construct.exe
+  TARGET_IMPLIB = libset_construct.dll.a
+  TARGET_PDB = set_construct.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target set_size_swap
+
+
+#############################################
+# Order-only phony target for set_size_swap
+
+build cmake_object_order_depends_target_set_size_swap: phony || .
+
+build CMakeFiles/set_size_swap.dir/cources/standard_template_library/set_container/set_size_swap.cpp.obj: CXX_COMPILER__set_size_swap_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/set_container/set_size_swap.cpp || cmake_object_order_depends_target_set_size_swap
+  DEP_FILE = CMakeFiles\set_size_swap.dir\cources\standard_template_library\set_container\set_size_swap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\set_size_swap.dir
+  OBJECT_FILE_DIR = CMakeFiles\set_size_swap.dir\cources\standard_template_library\set_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target set_size_swap
+
+
+#############################################
+# Link the executable set_size_swap.exe
+
+build set_size_swap.exe: CXX_EXECUTABLE_LINKER__set_size_swap_Debug CMakeFiles/set_size_swap.dir/cources/standard_template_library/set_container/set_size_swap.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\set_size_swap.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = set_size_swap.exe
+  TARGET_IMPLIB = libset_size_swap.dll.a
+  TARGET_PDB = set_size_swap.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target set_insert_erase
+
+
+#############################################
+# Order-only phony target for set_insert_erase
+
+build cmake_object_order_depends_target_set_insert_erase: phony || .
+
+build CMakeFiles/set_insert_erase.dir/cources/standard_template_library/set_container/set_insert_erase.cpp.obj: CXX_COMPILER__set_insert_erase_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/set_container/set_insert_erase.cpp || cmake_object_order_depends_target_set_insert_erase
+  DEP_FILE = CMakeFiles\set_insert_erase.dir\cources\standard_template_library\set_container\set_insert_erase.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\set_insert_erase.dir
+  OBJECT_FILE_DIR = CMakeFiles\set_insert_erase.dir\cources\standard_template_library\set_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target set_insert_erase
+
+
+#############################################
+# Link the executable set_insert_erase.exe
+
+build set_insert_erase.exe: CXX_EXECUTABLE_LINKER__set_insert_erase_Debug CMakeFiles/set_insert_erase.dir/cources/standard_template_library/set_container/set_insert_erase.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\set_insert_erase.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = set_insert_erase.exe
+  TARGET_IMPLIB = libset_insert_erase.dll.a
+  TARGET_PDB = set_insert_erase.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target set_find_count
+
+
+#############################################
+# Order-only phony target for set_find_count
+
+build cmake_object_order_depends_target_set_find_count: phony || .
+
+build CMakeFiles/set_find_count.dir/cources/standard_template_library/set_container/set_find_count.cpp.obj: CXX_COMPILER__set_find_count_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/set_container/set_find_count.cpp || cmake_object_order_depends_target_set_find_count
+  DEP_FILE = CMakeFiles\set_find_count.dir\cources\standard_template_library\set_container\set_find_count.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\set_find_count.dir
+  OBJECT_FILE_DIR = CMakeFiles\set_find_count.dir\cources\standard_template_library\set_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target set_find_count
+
+
+#############################################
+# Link the executable set_find_count.exe
+
+build set_find_count.exe: CXX_EXECUTABLE_LINKER__set_find_count_Debug CMakeFiles/set_find_count.dir/cources/standard_template_library/set_container/set_find_count.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\set_find_count.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = set_find_count.exe
+  TARGET_IMPLIB = libset_find_count.dll.a
+  TARGET_PDB = set_find_count.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target set_multiset_diff
+
+
+#############################################
+# Order-only phony target for set_multiset_diff
+
+build cmake_object_order_depends_target_set_multiset_diff: phony || .
+
+build CMakeFiles/set_multiset_diff.dir/cources/standard_template_library/set_container/set_multiset_diff.cpp.obj: CXX_COMPILER__set_multiset_diff_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/set_container/set_multiset_diff.cpp || cmake_object_order_depends_target_set_multiset_diff
+  DEP_FILE = CMakeFiles\set_multiset_diff.dir\cources\standard_template_library\set_container\set_multiset_diff.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\set_multiset_diff.dir
+  OBJECT_FILE_DIR = CMakeFiles\set_multiset_diff.dir\cources\standard_template_library\set_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target set_multiset_diff
+
+
+#############################################
+# Link the executable set_multiset_diff.exe
+
+build set_multiset_diff.exe: CXX_EXECUTABLE_LINKER__set_multiset_diff_Debug CMakeFiles/set_multiset_diff.dir/cources/standard_template_library/set_container/set_multiset_diff.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\set_multiset_diff.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = set_multiset_diff.exe
+  TARGET_IMPLIB = libset_multiset_diff.dll.a
+  TARGET_PDB = set_multiset_diff.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pair_consturct
+
+
+#############################################
+# Order-only phony target for pair_consturct
+
+build cmake_object_order_depends_target_pair_consturct: phony || .
+
+build CMakeFiles/pair_consturct.dir/cources/standard_template_library/pair/pair_consturct.cpp.obj: CXX_COMPILER__pair_consturct_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/pair/pair_consturct.cpp || cmake_object_order_depends_target_pair_consturct
+  DEP_FILE = CMakeFiles\pair_consturct.dir\cources\standard_template_library\pair\pair_consturct.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\pair_consturct.dir
+  OBJECT_FILE_DIR = CMakeFiles\pair_consturct.dir\cources\standard_template_library\pair
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pair_consturct
+
+
+#############################################
+# Link the executable pair_consturct.exe
+
+build pair_consturct.exe: CXX_EXECUTABLE_LINKER__pair_consturct_Debug CMakeFiles/pair_consturct.dir/cources/standard_template_library/pair/pair_consturct.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\pair_consturct.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = pair_consturct.exe
+  TARGET_IMPLIB = libpair_consturct.dll.a
+  TARGET_PDB = pair_consturct.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target set_sort
+
+
+#############################################
+# Order-only phony target for set_sort
+
+build cmake_object_order_depends_target_set_sort: phony || .
+
+build CMakeFiles/set_sort.dir/cources/standard_template_library/set_container/set_sort.cpp.obj: CXX_COMPILER__set_sort_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/set_container/set_sort.cpp || cmake_object_order_depends_target_set_sort
+  DEP_FILE = CMakeFiles\set_sort.dir\cources\standard_template_library\set_container\set_sort.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\set_sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\set_sort.dir\cources\standard_template_library\set_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target set_sort
+
+
+#############################################
+# Link the executable set_sort.exe
+
+build set_sort.exe: CXX_EXECUTABLE_LINKER__set_sort_Debug CMakeFiles/set_sort.dir/cources/standard_template_library/set_container/set_sort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\set_sort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = set_sort.exe
+  TARGET_IMPLIB = libset_sort.dll.a
+  TARGET_PDB = set_sort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target map_element
+
+
+#############################################
+# Order-only phony target for map_element
+
+build cmake_object_order_depends_target_map_element: phony || .
+
+build CMakeFiles/map_element.dir/cources/standard_template_library/map_container/map_element.cpp.obj: CXX_COMPILER__map_element_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/map_container/map_element.cpp || cmake_object_order_depends_target_map_element
+  DEP_FILE = CMakeFiles\map_element.dir\cources\standard_template_library\map_container\map_element.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\map_element.dir
+  OBJECT_FILE_DIR = CMakeFiles\map_element.dir\cources\standard_template_library\map_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target map_element
+
+
+#############################################
+# Link the executable map_element.exe
+
+build map_element.exe: CXX_EXECUTABLE_LINKER__map_element_Debug CMakeFiles/map_element.dir/cources/standard_template_library/map_container/map_element.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\map_element.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = map_element.exe
+  TARGET_IMPLIB = libmap_element.dll.a
+  TARGET_PDB = map_element.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target map_consturct
+
+
+#############################################
+# Order-only phony target for map_consturct
+
+build cmake_object_order_depends_target_map_consturct: phony || .
+
+build CMakeFiles/map_consturct.dir/cources/standard_template_library/map_container/map_consturct.cpp.obj: CXX_COMPILER__map_consturct_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/map_container/map_consturct.cpp || cmake_object_order_depends_target_map_consturct
+  DEP_FILE = CMakeFiles\map_consturct.dir\cources\standard_template_library\map_container\map_consturct.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\map_consturct.dir
+  OBJECT_FILE_DIR = CMakeFiles\map_consturct.dir\cources\standard_template_library\map_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target map_consturct
+
+
+#############################################
+# Link the executable map_consturct.exe
+
+build map_consturct.exe: CXX_EXECUTABLE_LINKER__map_consturct_Debug CMakeFiles/map_consturct.dir/cources/standard_template_library/map_container/map_consturct.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\map_consturct.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = map_consturct.exe
+  TARGET_IMPLIB = libmap_consturct.dll.a
+  TARGET_PDB = map_consturct.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target map_size_swap
+
+
+#############################################
+# Order-only phony target for map_size_swap
+
+build cmake_object_order_depends_target_map_size_swap: phony || .
+
+build CMakeFiles/map_size_swap.dir/cources/standard_template_library/map_container/map_size_swap.cpp.obj: CXX_COMPILER__map_size_swap_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/map_container/map_size_swap.cpp || cmake_object_order_depends_target_map_size_swap
+  DEP_FILE = CMakeFiles\map_size_swap.dir\cources\standard_template_library\map_container\map_size_swap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\map_size_swap.dir
+  OBJECT_FILE_DIR = CMakeFiles\map_size_swap.dir\cources\standard_template_library\map_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target map_size_swap
+
+
+#############################################
+# Link the executable map_size_swap.exe
+
+build map_size_swap.exe: CXX_EXECUTABLE_LINKER__map_size_swap_Debug CMakeFiles/map_size_swap.dir/cources/standard_template_library/map_container/map_size_swap.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\map_size_swap.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = map_size_swap.exe
+  TARGET_IMPLIB = libmap_size_swap.dll.a
+  TARGET_PDB = map_size_swap.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target map_insert_erase
+
+
+#############################################
+# Order-only phony target for map_insert_erase
+
+build cmake_object_order_depends_target_map_insert_erase: phony || .
+
+build CMakeFiles/map_insert_erase.dir/cources/standard_template_library/map_container/map_insert_erase.cpp.obj: CXX_COMPILER__map_insert_erase_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/map_container/map_insert_erase.cpp || cmake_object_order_depends_target_map_insert_erase
+  DEP_FILE = CMakeFiles\map_insert_erase.dir\cources\standard_template_library\map_container\map_insert_erase.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\map_insert_erase.dir
+  OBJECT_FILE_DIR = CMakeFiles\map_insert_erase.dir\cources\standard_template_library\map_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target map_insert_erase
+
+
+#############################################
+# Link the executable map_insert_erase.exe
+
+build map_insert_erase.exe: CXX_EXECUTABLE_LINKER__map_insert_erase_Debug CMakeFiles/map_insert_erase.dir/cources/standard_template_library/map_container/map_insert_erase.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\map_insert_erase.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = map_insert_erase.exe
+  TARGET_IMPLIB = libmap_insert_erase.dll.a
+  TARGET_PDB = map_insert_erase.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target map_find_count
+
+
+#############################################
+# Order-only phony target for map_find_count
+
+build cmake_object_order_depends_target_map_find_count: phony || .
+
+build CMakeFiles/map_find_count.dir/cources/standard_template_library/map_container/map_find_count.cpp.obj: CXX_COMPILER__map_find_count_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/map_container/map_find_count.cpp || cmake_object_order_depends_target_map_find_count
+  DEP_FILE = CMakeFiles\map_find_count.dir\cources\standard_template_library\map_container\map_find_count.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\map_find_count.dir
+  OBJECT_FILE_DIR = CMakeFiles\map_find_count.dir\cources\standard_template_library\map_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target map_find_count
+
+
+#############################################
+# Link the executable map_find_count.exe
+
+build map_find_count.exe: CXX_EXECUTABLE_LINKER__map_find_count_Debug CMakeFiles/map_find_count.dir/cources/standard_template_library/map_container/map_find_count.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\map_find_count.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = map_find_count.exe
+  TARGET_IMPLIB = libmap_find_count.dll.a
+  TARGET_PDB = map_find_count.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target map_sort
+
+
+#############################################
+# Order-only phony target for map_sort
+
+build cmake_object_order_depends_target_map_sort: phony || .
+
+build CMakeFiles/map_sort.dir/cources/standard_template_library/map_container/map_sort.cpp.obj: CXX_COMPILER__map_sort_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/map_container/map_sort.cpp || cmake_object_order_depends_target_map_sort
+  DEP_FILE = CMakeFiles\map_sort.dir\cources\standard_template_library\map_container\map_sort.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\map_sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\map_sort.dir\cources\standard_template_library\map_container
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target map_sort
+
+
+#############################################
+# Link the executable map_sort.exe
+
+build map_sort.exe: CXX_EXECUTABLE_LINKER__map_sort_Debug CMakeFiles/map_sort.dir/cources/standard_template_library/map_container/map_sort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\map_sort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = map_sort.exe
+  TARGET_IMPLIB = libmap_sort.dll.a
+  TARGET_PDB = map_sort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target employee_grouping
+
+
+#############################################
+# Order-only phony target for employee_grouping
+
+build cmake_object_order_depends_target_employee_grouping: phony || .
+
+build CMakeFiles/employee_grouping.dir/cources/standard_template_library/case/employee_grouping.cpp.obj: CXX_COMPILER__employee_grouping_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/case/employee_grouping.cpp || cmake_object_order_depends_target_employee_grouping
+  DEP_FILE = CMakeFiles\employee_grouping.dir\cources\standard_template_library\case\employee_grouping.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\employee_grouping.dir
+  OBJECT_FILE_DIR = CMakeFiles\employee_grouping.dir\cources\standard_template_library\case
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target employee_grouping
+
+
+#############################################
+# Link the executable employee_grouping.exe
+
+build employee_grouping.exe: CXX_EXECUTABLE_LINKER__employee_grouping_Debug CMakeFiles/employee_grouping.dir/cources/standard_template_library/case/employee_grouping.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\employee_grouping.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = employee_grouping.exe
+  TARGET_IMPLIB = libemployee_grouping.dll.a
+  TARGET_PDB = employee_grouping.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target function_object_element
+
+
+#############################################
+# Order-only phony target for function_object_element
+
+build cmake_object_order_depends_target_function_object_element: phony || .
+
+build CMakeFiles/function_object_element.dir/cources/standard_template_library/function_object/function_object_element.cpp.obj: CXX_COMPILER__function_object_element_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/function_object/function_object_element.cpp || cmake_object_order_depends_target_function_object_element
+  DEP_FILE = CMakeFiles\function_object_element.dir\cources\standard_template_library\function_object\function_object_element.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\function_object_element.dir
+  OBJECT_FILE_DIR = CMakeFiles\function_object_element.dir\cources\standard_template_library\function_object
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target function_object_element
+
+
+#############################################
+# Link the executable function_object_element.exe
+
+build function_object_element.exe: CXX_EXECUTABLE_LINKER__function_object_element_Debug CMakeFiles/function_object_element.dir/cources/standard_template_library/function_object/function_object_element.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\function_object_element.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = function_object_element.exe
+  TARGET_IMPLIB = libfunction_object_element.dll.a
+  TARGET_PDB = function_object_element.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target predicate
+
+
+#############################################
+# Order-only phony target for predicate
+
+build cmake_object_order_depends_target_predicate: phony || .
+
+build CMakeFiles/predicate.dir/cources/standard_template_library/function_object/predicate.cpp.obj: CXX_COMPILER__predicate_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/function_object/predicate.cpp || cmake_object_order_depends_target_predicate
+  DEP_FILE = CMakeFiles\predicate.dir\cources\standard_template_library\function_object\predicate.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\predicate.dir
+  OBJECT_FILE_DIR = CMakeFiles\predicate.dir\cources\standard_template_library\function_object
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target predicate
+
+
+#############################################
+# Link the executable predicate.exe
+
+build predicate.exe: CXX_EXECUTABLE_LINKER__predicate_Debug CMakeFiles/predicate.dir/cources/standard_template_library/function_object/predicate.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\predicate.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = predicate.exe
+  TARGET_IMPLIB = libpredicate.dll.a
+  TARGET_PDB = predicate.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1718,6 +2262,10 @@ build deque_sort: phony deque_sort.exe
 
 build deque_structure: phony deque_structure.exe
 
+build employee_grouping: phony employee_grouping.exe
+
+build function_object_element: phony function_object_element.exe
+
 build list_assign_swap: phony list_assign_swap.exe
 
 build list_construct: phony list_construct.exe
@@ -1734,9 +2282,37 @@ build list_sort_case: phony list_sort_case.exe
 
 build list_sort_reverse: phony list_sort_reverse.exe
 
+build map_consturct: phony map_consturct.exe
+
+build map_element: phony map_element.exe
+
+build map_find_count: phony map_find_count.exe
+
+build map_insert_erase: phony map_insert_erase.exe
+
+build map_size_swap: phony map_size_swap.exe
+
+build map_sort: phony map_sort.exe
+
+build pair_consturct: phony pair_consturct.exe
+
+build predicate: phony predicate.exe
+
 build queue_element: phony queue_element.exe
 
 build score: phony score.exe
+
+build set_construct: phony set_construct.exe
+
+build set_find_count: phony set_find_count.exe
+
+build set_insert_erase: phony set_insert_erase.exe
+
+build set_multiset_diff: phony set_multiset_diff.exe
+
+build set_size_swap: phony set_size_swap.exe
+
+build set_sort: phony set_sort.exe
 
 build stack_element: phony stack_element.exe
 
@@ -1802,7 +2378,7 @@ build vector_swap: phony vector_swap.exe
 #############################################
 # Folder: E:/Cproject/cpp_Plus/cmake-build-debug
 
-build all: phony templete_element.exe templete_sort.exe template_regulation.exe template_lemit.exe template_class.exe template_class_function.exe template_classfunction_creation.exe template_class_as_func_para.exe template_class_extend.exe template_class_outer_func.exe template_class_divide.exe template_class_friend.exe MyArray.exe container_save_data.exe container_save_person_data.exe container_nest.exe string_element.exe string_assign.exe string_append.exe string_find_replace.exe string_compare.exe string_at.exe string_insert_erase.exe string_substr.exe vector_structure.exe vector_assign.exe vector_capacity_size.exe vector_insert_erase.exe vector_at.exe vector_swap.exe vector_reserve.exe deque_structure.exe deque_assign.exe deque_compare.exe deque_insert_erase.exe deque_at.exe deque_sort.exe score.exe stack_element.exe queue_element.exe list_element.exe list_construct.exe list_assign_swap.exe list_size.exe list_insert_clear.exe list_get.exe list_sort_reverse.exe list_sort_case.exe
+build all: phony templete_element.exe templete_sort.exe template_regulation.exe template_lemit.exe template_class.exe template_class_function.exe template_classfunction_creation.exe template_class_as_func_para.exe template_class_extend.exe template_class_outer_func.exe template_class_divide.exe template_class_friend.exe MyArray.exe container_save_data.exe container_save_person_data.exe container_nest.exe string_element.exe string_assign.exe string_append.exe string_find_replace.exe string_compare.exe string_at.exe string_insert_erase.exe string_substr.exe vector_structure.exe vector_assign.exe vector_capacity_size.exe vector_insert_erase.exe vector_at.exe vector_swap.exe vector_reserve.exe deque_structure.exe deque_assign.exe deque_compare.exe deque_insert_erase.exe deque_at.exe deque_sort.exe score.exe stack_element.exe queue_element.exe list_element.exe list_construct.exe list_assign_swap.exe list_size.exe list_insert_clear.exe list_get.exe list_sort_reverse.exe list_sort_case.exe set_construct.exe set_size_swap.exe set_insert_erase.exe set_find_count.exe set_multiset_diff.exe pair_consturct.exe set_sort.exe map_element.exe map_consturct.exe map_size_swap.exe map_insert_erase.exe map_find_count.exe map_sort.exe employee_grouping.exe function_object_element.exe predicate.exe
 
 # =============================================================================
 # Built-in targets
