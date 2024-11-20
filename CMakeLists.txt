@@ -71,3 +71,7 @@ add_executable(map_sort cources/standard_template_library/map_container/map_sort
 add_executable(employee_grouping cources/standard_template_library/case/employee_grouping.cpp)
 add_executable(function_object_element cources/standard_template_library/function_object/function_object_element.cpp)
 add_executable(predicate cources/standard_template_library/function_object/predicate.cpp)
+add_executable(build-in_function_object cources/standard_template_library/function_object/build-in_function_object.cpp)
+add_executable(for_each cources/standard_template_library/functional_algorithm/for_each.cpp)
+add_executable(transform cources/standard_template_library/functional_algorithm/transform.cpp)
+add_executable(find cources/standard_template_library/functional_algorithm/find.cpp)

@@ -62,5 +62,9 @@ E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/map_sort.dir
 E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/employee_grouping.dir
 E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/function_object_element.dir
 E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/predicate.dir
+E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/build-in_function_object.dir
+E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/for_each.dir
+E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/transform.dir
+E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/find.dir
 E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/rebuild_cache.dir

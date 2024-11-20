@@ -2216,6 +2216,142 @@ build predicate.exe: CXX_EXECUTABLE_LINKER__predicate_Debug CMakeFiles/predicate
   TARGET_IMPLIB = libpredicate.dll.a
   TARGET_PDB = predicate.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target build-in_function_object
+
+
+#############################################
+# Order-only phony target for build-in_function_object
+
+build cmake_object_order_depends_target_build-in_function_object: phony || .
+
+build CMakeFiles/build-in_function_object.dir/cources/standard_template_library/function_object/build-in_function_object.cpp.obj: CXX_COMPILER__build-in_function_object_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/function_object/build-in_function_object.cpp || cmake_object_order_depends_target_build-in_function_object
+  DEP_FILE = CMakeFiles\build-in_function_object.dir\cources\standard_template_library\function_object\build-in_function_object.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\build-in_function_object.dir
+  OBJECT_FILE_DIR = CMakeFiles\build-in_function_object.dir\cources\standard_template_library\function_object
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target build-in_function_object
+
+
+#############################################
+# Link the executable build-in_function_object.exe
+
+build build-in_function_object.exe: CXX_EXECUTABLE_LINKER__build-in_function_object_Debug CMakeFiles/build-in_function_object.dir/cources/standard_template_library/function_object/build-in_function_object.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\build-in_function_object.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = build-in_function_object.exe
+  TARGET_IMPLIB = libbuild-in_function_object.dll.a
+  TARGET_PDB = build-in_function_object.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target for_each
+
+
+#############################################
+# Order-only phony target for for_each
+
+build cmake_object_order_depends_target_for_each: phony || .
+
+build CMakeFiles/for_each.dir/cources/standard_template_library/functional_algorithm/for_each.cpp.obj: CXX_COMPILER__for_each_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/functional_algorithm/for_each.cpp || cmake_object_order_depends_target_for_each
+  DEP_FILE = CMakeFiles\for_each.dir\cources\standard_template_library\functional_algorithm\for_each.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\for_each.dir
+  OBJECT_FILE_DIR = CMakeFiles\for_each.dir\cources\standard_template_library\functional_algorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target for_each
+
+
+#############################################
+# Link the executable for_each.exe
+
+build for_each.exe: CXX_EXECUTABLE_LINKER__for_each_Debug CMakeFiles/for_each.dir/cources/standard_template_library/functional_algorithm/for_each.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\for_each.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = for_each.exe
+  TARGET_IMPLIB = libfor_each.dll.a
+  TARGET_PDB = for_each.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target transform
+
+
+#############################################
+# Order-only phony target for transform
+
+build cmake_object_order_depends_target_transform: phony || .
+
+build CMakeFiles/transform.dir/cources/standard_template_library/functional_algorithm/transform.cpp.obj: CXX_COMPILER__transform_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/functional_algorithm/transform.cpp || cmake_object_order_depends_target_transform
+  DEP_FILE = CMakeFiles\transform.dir\cources\standard_template_library\functional_algorithm\transform.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\transform.dir
+  OBJECT_FILE_DIR = CMakeFiles\transform.dir\cources\standard_template_library\functional_algorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target transform
+
+
+#############################################
+# Link the executable transform.exe
+
+build transform.exe: CXX_EXECUTABLE_LINKER__transform_Debug CMakeFiles/transform.dir/cources/standard_template_library/functional_algorithm/transform.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\transform.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = transform.exe
+  TARGET_IMPLIB = libtransform.dll.a
+  TARGET_PDB = transform.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target find
+
+
+#############################################
+# Order-only phony target for find
+
+build cmake_object_order_depends_target_find: phony || .
+
+build CMakeFiles/find.dir/cources/standard_template_library/functional_algorithm/find.cpp.obj: CXX_COMPILER__find_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/functional_algorithm/find.cpp || cmake_object_order_depends_target_find
+  DEP_FILE = CMakeFiles\find.dir\cources\standard_template_library\functional_algorithm\find.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\find.dir
+  OBJECT_FILE_DIR = CMakeFiles\find.dir\cources\standard_template_library\functional_algorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target find
+
+
+#############################################
+# Link the executable find.exe
+
+build find.exe: CXX_EXECUTABLE_LINKER__find_Debug CMakeFiles/find.dir/cources/standard_template_library/functional_algorithm/find.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\find.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = find.exe
+  TARGET_IMPLIB = libfind.dll.a
+  TARGET_PDB = find.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2244,6 +2380,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build MyArray: phony MyArray.exe
 
+build build-in_function_object: phony build-in_function_object.exe
+
 build container_nest: phony container_nest.exe
 
 build container_save_data: phony container_save_data.exe
@@ -2263,6 +2401,10 @@ build deque_sort: phony deque_sort.exe
 build deque_structure: phony deque_structure.exe
 
 build employee_grouping: phony employee_grouping.exe
+
+build find: phony find.exe
+
+build for_each: phony for_each.exe
 
 build function_object_element: phony function_object_element.exe
 
@@ -2356,6 +2498,8 @@ build templete_element: phony templete_element.exe
 
 build templete_sort: phony templete_sort.exe
 
+build transform: phony transform.exe
+
 build vector_assign: phony vector_assign.exe
 
 build vector_at: phony vector_at.exe
@@ -2378,7 +2522,7 @@ build vector_swap: phony vector_swap.exe
 #############################################
 # Folder: E:/Cproject/cpp_Plus/cmake-build-debug
 
-build all: phony templete_element.exe templete_sort.exe template_regulation.exe template_lemit.exe template_class.exe template_class_function.exe template_classfunction_creation.exe template_class_as_func_para.exe template_class_extend.exe template_class_outer_func.exe template_class_divide.exe template_class_friend.exe MyArray.exe container_save_data.exe container_save_person_data.exe container_nest.exe string_element.exe string_assign.exe string_append.exe string_find_replace.exe string_compare.exe string_at.exe string_insert_erase.exe string_substr.exe vector_structure.exe vector_assign.exe vector_capacity_size.exe vector_insert_erase.exe vector_at.exe vector_swap.exe vector_reserve.exe deque_structure.exe deque_assign.exe deque_compare.exe deque_insert_erase.exe deque_at.exe deque_sort.exe score.exe stack_element.exe queue_element.exe list_element.exe list_construct.exe list_assign_swap.exe list_size.exe list_insert_clear.exe list_get.exe list_sort_reverse.exe list_sort_case.exe set_construct.exe set_size_swap.exe set_insert_erase.exe set_find_count.exe set_multiset_diff.exe pair_consturct.exe set_sort.exe map_element.exe map_consturct.exe map_size_swap.exe map_insert_erase.exe map_find_count.exe map_sort.exe employee_grouping.exe function_object_element.exe predicate.exe
+build all: phony templete_element.exe templete_sort.exe template_regulation.exe template_lemit.exe template_class.exe template_class_function.exe template_classfunction_creation.exe template_class_as_func_para.exe template_class_extend.exe template_class_outer_func.exe template_class_divide.exe template_class_friend.exe MyArray.exe container_save_data.exe container_save_person_data.exe container_nest.exe string_element.exe string_assign.exe string_append.exe string_find_replace.exe string_compare.exe string_at.exe string_insert_erase.exe string_substr.exe vector_structure.exe vector_assign.exe vector_capacity_size.exe vector_insert_erase.exe vector_at.exe vector_swap.exe vector_reserve.exe deque_structure.exe deque_assign.exe deque_compare.exe deque_insert_erase.exe deque_at.exe deque_sort.exe score.exe stack_element.exe queue_element.exe list_element.exe list_construct.exe list_assign_swap.exe list_size.exe list_insert_clear.exe list_get.exe list_sort_reverse.exe list_sort_case.exe set_construct.exe set_size_swap.exe set_insert_erase.exe set_find_count.exe set_multiset_diff.exe pair_consturct.exe set_sort.exe map_element.exe map_consturct.exe map_size_swap.exe map_insert_erase.exe map_find_count.exe map_sort.exe employee_grouping.exe function_object_element.exe predicate.exe build-in_function_object.exe for_each.exe transform.exe find.exe
 
 # =============================================================================
 # Built-in targets

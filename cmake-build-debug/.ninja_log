@@ -25,6 +25,7 @@
 513	658	7506191437065960	template_classfunction_creation.exe	7aea587c1d320e06
 469	581	7507962442970549	string_compare.exe	f3127d714eb1b14a
 5	437	7506197737445117	CMakeFiles/template_class_as_func_para.dir/template_class_as_func_para.cpp.obj	7569c03bdd7b2b20
+6	742	7535590141109433	CMakeFiles/build-in_function_object.dir/cources/standard_template_library/function_object/build-in_function_object.cpp.obj	818bc6dd85267801
 2	455	7506203064366790	CMakeFiles/template_class_extend.dir/template_class_extend.cpp.obj	2608483c294dd789
 455	564	7506203068897584	template_class_extend.exe	65180aa6bed2fa0a
 527	674	7506210301175844	template_class_outer_func.exe	1fc3f96b0b399ef0
@@ -42,6 +43,7 @@
 5	664	7507148401453575	CMakeFiles/container_save_person_data.dir/cources/standard_template_library/element/container_save_person_data.cpp.obj	e573fd35eea7686f
 727	882	7533023778524409	map_sort.exe	a096060dd4db639
 2	729	7507149760859179	CMakeFiles/container_nest.dir/cources/standard_template_library/element/container_nest.cpp.obj	35cb58edafed876e
+743	940	7535590148480727	build-in_function_object.exe	cdfa18731bcd1e3b
 447	558	7507964188693085	string_at.exe	3657d101379e9959
 551	676	7508848305548775	vector_structure.exe	50209b38f19aaeb2
 481	591	7532993783177432	set_multiset_diff.exe	2f9a77ed087b1fd3
@@ -60,8 +62,8 @@
 6	549	7508858143654069	CMakeFiles/vector_insert_erase.dir/cources/standard_template_library/vector_container/vector_insert_erase.cpp.obj	4f490483b8765f03
 5	446	7507964184271296	CMakeFiles/string_at.dir/cources/standard_template_library/string_container/string_at.cpp.obj	8a1ff59c1bcc6353
 573	696	7508869974555959	vector_swap.exe	974829345d4f53b3
-3	503	7532990065936435	CMakeFiles/set_find_count.dir/cources/standard_template_library/set_container/set_find_count.cpp.obj	40241150895ff6b1
 482	609	7507967523082161	string_insert_erase.exe	1389ad8d36987ccf
+3	503	7532990065936435	CMakeFiles/set_find_count.dir/cources/standard_template_library/set_container/set_find_count.cpp.obj	40241150895ff6b1
 6	550	7508848300097827	CMakeFiles/vector_structure.dir/cources/standard_template_library/vector_container/vector_structure.cpp.obj	9e5d85517bfbee36
 2	529	7507968909932150	CMakeFiles/string_substr.dir/cources/standard_template_library/string_container/string_substr.cpp.obj	16fa399ff766b606
 529	654	7507968915202853	string_substr.exe	7f252b21dda08c5b
@@ -120,3 +122,19 @@
 652	822	7533050667429346	employee_grouping.exe	dca0a93778f01ac8
 7	629	7533057750206804	CMakeFiles/function_object_element.dir/cources/standard_template_library/function_object/function_object_element.cpp.obj	309ce1c2180b04ec
 629	751	7533057756433337	function_object_element.exe	b7582ca6c8869e1d
+7	610	7535583100784627	CMakeFiles/predicate.dir/cources/standard_template_library/function_object/predicate.cpp.obj	2be7a239310fffdf
+611	774	7535583106825685	predicate.exe	3dc84c89d640e637
+7	540	7535592552350576	CMakeFiles/for_each.dir/cources/standard_template_library/functional_algorithm/for_each.cpp.obj	6ab33421e462a62e
+540	682	7535592557681523	for_each.exe	523d23131d3f8357
+8	574	7535662460909094	CMakeFiles/transform.dir/cources/standard_template_library/functional_algorithm/transform.cpp.obj	ca9b3cf5134092a6
+574	739	7535662466570093	transform.exe	481490456c62845a
+4	613	7535663777877147	CMakeFiles/find.dir/cources/standard_template_library/functional_algorithm/find.cpp.obj	f994e832343105fa
+614	811	7535663783978214	find.exe	d25e18d475e1e722
+7	553	7535664007559158	CMakeFiles/find.dir/cources/standard_template_library/functional_algorithm/find.cpp.obj	f994e832343105fa
+554	720	7535664013025115	find.exe	d25e18d475e1e722
+7	549	7535664103103231	CMakeFiles/find.dir/cources/standard_template_library/functional_algorithm/find.cpp.obj	f994e832343105fa
+550	695	7535664108539180	find.exe	d25e18d475e1e722
+6	627	7535666200584695	CMakeFiles/find.dir/cources/standard_template_library/functional_algorithm/find.cpp.obj	f994e832343105fa
+628	783	7535666206795786	find.exe	d25e18d475e1e722
+7	633	7535666410137415	CMakeFiles/find.dir/cources/standard_template_library/functional_algorithm/find.cpp.obj	f994e832343105fa
+634	807	7535666416408504	find.exe	d25e18d475e1e722
