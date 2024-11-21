@@ -75,3 +75,8 @@ add_executable(build-in_function_object cources/standard_template_library/functi
 add_executable(for_each cources/standard_template_library/functional_algorithm/for_each.cpp)
 add_executable(transform cources/standard_template_library/functional_algorithm/transform.cpp)
 add_executable(find cources/standard_template_library/functional_algorithm/find.cpp)
+add_executable(find_if cources/standard_template_library/functional_algorithm/find_if.cpp)
+add_executable(adjacent_find cources/standard_template_library/functional_algorithm/adjacent_find.cpp)
+add_executable(binary_search cources/standard_template_library/functional_algorithm/binary_search.cpp)
+add_executable(count cources/standard_template_library/functional_algorithm/count.cpp)
+add_executable(count_if cources/standard_template_library/functional_algorithm/count_if.cpp)

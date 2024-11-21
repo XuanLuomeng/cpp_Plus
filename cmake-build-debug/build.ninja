@@ -2352,6 +2352,176 @@ build find.exe: CXX_EXECUTABLE_LINKER__find_Debug CMakeFiles/find.dir/cources/st
   TARGET_IMPLIB = libfind.dll.a
   TARGET_PDB = find.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target find_if
+
+
+#############################################
+# Order-only phony target for find_if
+
+build cmake_object_order_depends_target_find_if: phony || .
+
+build CMakeFiles/find_if.dir/cources/standard_template_library/functional_algorithm/find_if.cpp.obj: CXX_COMPILER__find_if_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/functional_algorithm/find_if.cpp || cmake_object_order_depends_target_find_if
+  DEP_FILE = CMakeFiles\find_if.dir\cources\standard_template_library\functional_algorithm\find_if.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\find_if.dir
+  OBJECT_FILE_DIR = CMakeFiles\find_if.dir\cources\standard_template_library\functional_algorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target find_if
+
+
+#############################################
+# Link the executable find_if.exe
+
+build find_if.exe: CXX_EXECUTABLE_LINKER__find_if_Debug CMakeFiles/find_if.dir/cources/standard_template_library/functional_algorithm/find_if.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\find_if.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = find_if.exe
+  TARGET_IMPLIB = libfind_if.dll.a
+  TARGET_PDB = find_if.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target adjacent_find
+
+
+#############################################
+# Order-only phony target for adjacent_find
+
+build cmake_object_order_depends_target_adjacent_find: phony || .
+
+build CMakeFiles/adjacent_find.dir/cources/standard_template_library/functional_algorithm/adjacent_find.cpp.obj: CXX_COMPILER__adjacent_find_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/functional_algorithm/adjacent_find.cpp || cmake_object_order_depends_target_adjacent_find
+  DEP_FILE = CMakeFiles\adjacent_find.dir\cources\standard_template_library\functional_algorithm\adjacent_find.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\adjacent_find.dir
+  OBJECT_FILE_DIR = CMakeFiles\adjacent_find.dir\cources\standard_template_library\functional_algorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target adjacent_find
+
+
+#############################################
+# Link the executable adjacent_find.exe
+
+build adjacent_find.exe: CXX_EXECUTABLE_LINKER__adjacent_find_Debug CMakeFiles/adjacent_find.dir/cources/standard_template_library/functional_algorithm/adjacent_find.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\adjacent_find.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = adjacent_find.exe
+  TARGET_IMPLIB = libadjacent_find.dll.a
+  TARGET_PDB = adjacent_find.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target binary_search
+
+
+#############################################
+# Order-only phony target for binary_search
+
+build cmake_object_order_depends_target_binary_search: phony || .
+
+build CMakeFiles/binary_search.dir/cources/standard_template_library/functional_algorithm/binary_search.cpp.obj: CXX_COMPILER__binary_search_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/functional_algorithm/binary_search.cpp || cmake_object_order_depends_target_binary_search
+  DEP_FILE = CMakeFiles\binary_search.dir\cources\standard_template_library\functional_algorithm\binary_search.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\binary_search.dir
+  OBJECT_FILE_DIR = CMakeFiles\binary_search.dir\cources\standard_template_library\functional_algorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target binary_search
+
+
+#############################################
+# Link the executable binary_search.exe
+
+build binary_search.exe: CXX_EXECUTABLE_LINKER__binary_search_Debug CMakeFiles/binary_search.dir/cources/standard_template_library/functional_algorithm/binary_search.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\binary_search.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = binary_search.exe
+  TARGET_IMPLIB = libbinary_search.dll.a
+  TARGET_PDB = binary_search.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target count
+
+
+#############################################
+# Order-only phony target for count
+
+build cmake_object_order_depends_target_count: phony || .
+
+build CMakeFiles/count.dir/cources/standard_template_library/functional_algorithm/count.cpp.obj: CXX_COMPILER__count_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/functional_algorithm/count.cpp || cmake_object_order_depends_target_count
+  DEP_FILE = CMakeFiles\count.dir\cources\standard_template_library\functional_algorithm\count.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\count.dir
+  OBJECT_FILE_DIR = CMakeFiles\count.dir\cources\standard_template_library\functional_algorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target count
+
+
+#############################################
+# Link the executable count.exe
+
+build count.exe: CXX_EXECUTABLE_LINKER__count_Debug CMakeFiles/count.dir/cources/standard_template_library/functional_algorithm/count.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\count.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = count.exe
+  TARGET_IMPLIB = libcount.dll.a
+  TARGET_PDB = count.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target count_if
+
+
+#############################################
+# Order-only phony target for count_if
+
+build cmake_object_order_depends_target_count_if: phony || .
+
+build CMakeFiles/count_if.dir/cources/standard_template_library/functional_algorithm/count_if.cpp.obj: CXX_COMPILER__count_if_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/functional_algorithm/count_if.cpp || cmake_object_order_depends_target_count_if
+  DEP_FILE = CMakeFiles\count_if.dir\cources\standard_template_library\functional_algorithm\count_if.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\count_if.dir
+  OBJECT_FILE_DIR = CMakeFiles\count_if.dir\cources\standard_template_library\functional_algorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target count_if
+
+
+#############################################
+# Link the executable count_if.exe
+
+build count_if.exe: CXX_EXECUTABLE_LINKER__count_if_Debug CMakeFiles/count_if.dir/cources/standard_template_library/functional_algorithm/count_if.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\count_if.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = count_if.exe
+  TARGET_IMPLIB = libcount_if.dll.a
+  TARGET_PDB = count_if.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2380,6 +2550,10 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build MyArray: phony MyArray.exe
 
+build adjacent_find: phony adjacent_find.exe
+
+build binary_search: phony binary_search.exe
+
 build build-in_function_object: phony build-in_function_object.exe
 
 build container_nest: phony container_nest.exe
@@ -2387,6 +2561,10 @@ build container_nest: phony container_nest.exe
 build container_save_data: phony container_save_data.exe
 
 build container_save_person_data: phony container_save_person_data.exe
+
+build count: phony count.exe
+
+build count_if: phony count_if.exe
 
 build deque_assign: phony deque_assign.exe
 
@@ -2403,6 +2581,8 @@ build deque_structure: phony deque_structure.exe
 build employee_grouping: phony employee_grouping.exe
 
 build find: phony find.exe
+
+build find_if: phony find_if.exe
 
 build for_each: phony for_each.exe
 
@@ -2522,7 +2702,7 @@ build vector_swap: phony vector_swap.exe
 #############################################
 # Folder: E:/Cproject/cpp_Plus/cmake-build-debug
 
-build all: phony templete_element.exe templete_sort.exe template_regulation.exe template_lemit.exe template_class.exe template_class_function.exe template_classfunction_creation.exe template_class_as_func_para.exe template_class_extend.exe template_class_outer_func.exe template_class_divide.exe template_class_friend.exe MyArray.exe container_save_data.exe container_save_person_data.exe container_nest.exe string_element.exe string_assign.exe string_append.exe string_find_replace.exe string_compare.exe string_at.exe string_insert_erase.exe string_substr.exe vector_structure.exe vector_assign.exe vector_capacity_size.exe vector_insert_erase.exe vector_at.exe vector_swap.exe vector_reserve.exe deque_structure.exe deque_assign.exe deque_compare.exe deque_insert_erase.exe deque_at.exe deque_sort.exe score.exe stack_element.exe queue_element.exe list_element.exe list_construct.exe list_assign_swap.exe list_size.exe list_insert_clear.exe list_get.exe list_sort_reverse.exe list_sort_case.exe set_construct.exe set_size_swap.exe set_insert_erase.exe set_find_count.exe set_multiset_diff.exe pair_consturct.exe set_sort.exe map_element.exe map_consturct.exe map_size_swap.exe map_insert_erase.exe map_find_count.exe map_sort.exe employee_grouping.exe function_object_element.exe predicate.exe build-in_function_object.exe for_each.exe transform.exe find.exe
+build all: phony templete_element.exe templete_sort.exe template_regulation.exe template_lemit.exe template_class.exe template_class_function.exe template_classfunction_creation.exe template_class_as_func_para.exe template_class_extend.exe template_class_outer_func.exe template_class_divide.exe template_class_friend.exe MyArray.exe container_save_data.exe container_save_person_data.exe container_nest.exe string_element.exe string_assign.exe string_append.exe string_find_replace.exe string_compare.exe string_at.exe string_insert_erase.exe string_substr.exe vector_structure.exe vector_assign.exe vector_capacity_size.exe vector_insert_erase.exe vector_at.exe vector_swap.exe vector_reserve.exe deque_structure.exe deque_assign.exe deque_compare.exe deque_insert_erase.exe deque_at.exe deque_sort.exe score.exe stack_element.exe queue_element.exe list_element.exe list_construct.exe list_assign_swap.exe list_size.exe list_insert_clear.exe list_get.exe list_sort_reverse.exe list_sort_case.exe set_construct.exe set_size_swap.exe set_insert_erase.exe set_find_count.exe set_multiset_diff.exe pair_consturct.exe set_sort.exe map_element.exe map_consturct.exe map_size_swap.exe map_insert_erase.exe map_find_count.exe map_sort.exe employee_grouping.exe function_object_element.exe predicate.exe build-in_function_object.exe for_each.exe transform.exe find.exe find_if.exe adjacent_find.exe binary_search.exe count.exe count_if.exe
 
 # =============================================================================
 # Built-in targets
