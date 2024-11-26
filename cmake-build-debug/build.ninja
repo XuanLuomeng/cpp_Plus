@@ -2522,6 +2522,108 @@ build count_if.exe: CXX_EXECUTABLE_LINKER__count_if_Debug CMakeFiles/count_if.di
   TARGET_IMPLIB = libcount_if.dll.a
   TARGET_PDB = count_if.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target sort
+
+
+#############################################
+# Order-only phony target for sort
+
+build cmake_object_order_depends_target_sort: phony || .
+
+build CMakeFiles/sort.dir/cources/standard_template_library/functional_sort/sort.cpp.obj: CXX_COMPILER__sort_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/functional_sort/sort.cpp || cmake_object_order_depends_target_sort
+  DEP_FILE = CMakeFiles\sort.dir\cources\standard_template_library\functional_sort\sort.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\sort.dir\cources\standard_template_library\functional_sort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sort
+
+
+#############################################
+# Link the executable sort.exe
+
+build sort.exe: CXX_EXECUTABLE_LINKER__sort_Debug CMakeFiles/sort.dir/cources/standard_template_library/functional_sort/sort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\sort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = sort.exe
+  TARGET_IMPLIB = libsort.dll.a
+  TARGET_PDB = sort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target random_shuffle
+
+
+#############################################
+# Order-only phony target for random_shuffle
+
+build cmake_object_order_depends_target_random_shuffle: phony || .
+
+build CMakeFiles/random_shuffle.dir/cources/standard_template_library/functional_sort/random_shuffle.cpp.obj: CXX_COMPILER__random_shuffle_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/functional_sort/random_shuffle.cpp || cmake_object_order_depends_target_random_shuffle
+  DEP_FILE = CMakeFiles\random_shuffle.dir\cources\standard_template_library\functional_sort\random_shuffle.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\random_shuffle.dir
+  OBJECT_FILE_DIR = CMakeFiles\random_shuffle.dir\cources\standard_template_library\functional_sort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target random_shuffle
+
+
+#############################################
+# Link the executable random_shuffle.exe
+
+build random_shuffle.exe: CXX_EXECUTABLE_LINKER__random_shuffle_Debug CMakeFiles/random_shuffle.dir/cources/standard_template_library/functional_sort/random_shuffle.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\random_shuffle.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = random_shuffle.exe
+  TARGET_IMPLIB = librandom_shuffle.dll.a
+  TARGET_PDB = random_shuffle.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target merge
+
+
+#############################################
+# Order-only phony target for merge
+
+build cmake_object_order_depends_target_merge: phony || .
+
+build CMakeFiles/merge.dir/cources/standard_template_library/functional_sort/merge.cpp.obj: CXX_COMPILER__merge_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/functional_sort/merge.cpp || cmake_object_order_depends_target_merge
+  DEP_FILE = CMakeFiles\merge.dir\cources\standard_template_library\functional_sort\merge.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\merge.dir
+  OBJECT_FILE_DIR = CMakeFiles\merge.dir\cources\standard_template_library\functional_sort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target merge
+
+
+#############################################
+# Link the executable merge.exe
+
+build merge.exe: CXX_EXECUTABLE_LINKER__merge_Debug CMakeFiles/merge.dir/cources/standard_template_library/functional_sort/merge.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\merge.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = merge.exe
+  TARGET_IMPLIB = libmerge.dll.a
+  TARGET_PDB = merge.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2616,11 +2718,15 @@ build map_size_swap: phony map_size_swap.exe
 
 build map_sort: phony map_sort.exe
 
+build merge: phony merge.exe
+
 build pair_consturct: phony pair_consturct.exe
 
 build predicate: phony predicate.exe
 
 build queue_element: phony queue_element.exe
+
+build random_shuffle: phony random_shuffle.exe
 
 build score: phony score.exe
 
@@ -2635,6 +2741,8 @@ build set_multiset_diff: phony set_multiset_diff.exe
 build set_size_swap: phony set_size_swap.exe
 
 build set_sort: phony set_sort.exe
+
+build sort: phony sort.exe
 
 build stack_element: phony stack_element.exe
 
@@ -2702,7 +2810,7 @@ build vector_swap: phony vector_swap.exe
 #############################################
 # Folder: E:/Cproject/cpp_Plus/cmake-build-debug
 
-build all: phony templete_element.exe templete_sort.exe template_regulation.exe template_lemit.exe template_class.exe template_class_function.exe template_classfunction_creation.exe template_class_as_func_para.exe template_class_extend.exe template_class_outer_func.exe template_class_divide.exe template_class_friend.exe MyArray.exe container_save_data.exe container_save_person_data.exe container_nest.exe string_element.exe string_assign.exe string_append.exe string_find_replace.exe string_compare.exe string_at.exe string_insert_erase.exe string_substr.exe vector_structure.exe vector_assign.exe vector_capacity_size.exe vector_insert_erase.exe vector_at.exe vector_swap.exe vector_reserve.exe deque_structure.exe deque_assign.exe deque_compare.exe deque_insert_erase.exe deque_at.exe deque_sort.exe score.exe stack_element.exe queue_element.exe list_element.exe list_construct.exe list_assign_swap.exe list_size.exe list_insert_clear.exe list_get.exe list_sort_reverse.exe list_sort_case.exe set_construct.exe set_size_swap.exe set_insert_erase.exe set_find_count.exe set_multiset_diff.exe pair_consturct.exe set_sort.exe map_element.exe map_consturct.exe map_size_swap.exe map_insert_erase.exe map_find_count.exe map_sort.exe employee_grouping.exe function_object_element.exe predicate.exe build-in_function_object.exe for_each.exe transform.exe find.exe find_if.exe adjacent_find.exe binary_search.exe count.exe count_if.exe
+build all: phony templete_element.exe templete_sort.exe template_regulation.exe template_lemit.exe template_class.exe template_class_function.exe template_classfunction_creation.exe template_class_as_func_para.exe template_class_extend.exe template_class_outer_func.exe template_class_divide.exe template_class_friend.exe MyArray.exe container_save_data.exe container_save_person_data.exe container_nest.exe string_element.exe string_assign.exe string_append.exe string_find_replace.exe string_compare.exe string_at.exe string_insert_erase.exe string_substr.exe vector_structure.exe vector_assign.exe vector_capacity_size.exe vector_insert_erase.exe vector_at.exe vector_swap.exe vector_reserve.exe deque_structure.exe deque_assign.exe deque_compare.exe deque_insert_erase.exe deque_at.exe deque_sort.exe score.exe stack_element.exe queue_element.exe list_element.exe list_construct.exe list_assign_swap.exe list_size.exe list_insert_clear.exe list_get.exe list_sort_reverse.exe list_sort_case.exe set_construct.exe set_size_swap.exe set_insert_erase.exe set_find_count.exe set_multiset_diff.exe pair_consturct.exe set_sort.exe map_element.exe map_consturct.exe map_size_swap.exe map_insert_erase.exe map_find_count.exe map_sort.exe employee_grouping.exe function_object_element.exe predicate.exe build-in_function_object.exe for_each.exe transform.exe find.exe find_if.exe adjacent_find.exe binary_search.exe count.exe count_if.exe sort.exe random_shuffle.exe merge.exe
 
 # =============================================================================
 # Built-in targets

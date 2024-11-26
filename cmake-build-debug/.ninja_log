@@ -9,6 +9,7 @@
 5	419	7504493924314217	CMakeFiles/templete_sort.dir/templete_sort.cpp.obj	46c6bbab829de0a5
 419	526	7504493928455145	templete_sort.exe	83356900dd879da5
 657	798	7506221114886748	template_class_divide.exe	b08f1668956820a5
+7	719	7543392952026717	CMakeFiles/sort.dir/cources/standard_template_library/functional_sort/sort.cpp.obj	204430d44e65ef9e
 4	399	7505446930111282	CMakeFiles/template_lemit.dir/template_lemit.cpp.obj	dae7852859d09e6c
 6	520	7508864384322108	CMakeFiles/vector_at.dir/cources/standard_template_library/vector_container/vector_at.cpp.obj	ba6457b62ba70f1f
 400	508	7505446934067220	template_lemit.exe	aec25a141385e7e3
@@ -69,6 +70,7 @@
 529	654	7507968915202853	string_substr.exe	7f252b21dda08c5b
 521	637	7508864389463009	vector_at.exe	3b792c15001aacfb
 5	572	7508869968879961	CMakeFiles/vector_swap.dir/cources/standard_template_library/vector_container/vector_swap.cpp.obj	1564d8590743bf85
+8	653	7543394815540318	CMakeFiles/random_shuffle.dir/cources/standard_template_library/functional_sort/random_shuffle.cpp.obj	6ffee4db299ccad2
 513	628	7510510372284192	deque_structure.exe	a300b155e5d94c52
 2	514	7508869994769483	CMakeFiles/vector_reserve.dir/cources/standard_template_library/vector_container/vector_reserve.cpp.obj	8e0571919027c4d9
 3	553	7533019901527186	CMakeFiles/map_find_count.dir/cources/standard_template_library/map_container/map_find_count.cpp.obj	15b850e10f38664b
@@ -138,7 +140,7 @@
 565	746	7538288055181607	binary_search.exe	73d4ff65cc4dd6a0
 7	701	7538291759731023	CMakeFiles/count.dir/cources/standard_template_library/functional_algorithm/count.cpp.obj	60b40e974e5454f2
 702	831	7538291766679528	count.exe	c678c388abac5bf
-4	540	7538310312999917	CMakeFiles/count_if.dir/cources/standard_template_library/functional_algorithm/count_if.cpp.obj	19a6582fe9c159e9
-541	655	7538310318365859	count_if.exe	a7f3ec6c76508b61
 7	547	7538311850419488	CMakeFiles/count_if.dir/cources/standard_template_library/functional_algorithm/count_if.cpp.obj	19a6582fe9c159e9
 548	666	7538311855828282	count_if.exe	a7f3ec6c76508b61
+720	875	7543392959157951	sort.exe	220e287f90e8ac4a
+654	793	7543394821991448	random_shuffle.exe	782e81471f43c45c

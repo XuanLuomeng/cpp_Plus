@@ -80,3 +80,6 @@ add_executable(adjacent_find cources/standard_template_library/functional_algori
 add_executable(binary_search cources/standard_template_library/functional_algorithm/binary_search.cpp)
 add_executable(count cources/standard_template_library/functional_algorithm/count.cpp)
 add_executable(count_if cources/standard_template_library/functional_algorithm/count_if.cpp)
+add_executable(sort cources/standard_template_library/functional_sort/sort.cpp)
+add_executable(random_shuffle cources/standard_template_library/functional_sort/random_shuffle.cpp)
+add_executable(merge cources/standard_template_library/functional_sort/merge.cpp)

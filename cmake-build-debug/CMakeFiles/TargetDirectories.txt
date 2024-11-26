@@ -71,5 +71,8 @@ E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/adjacent_find.dir
 E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/binary_search.dir
 E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/count.dir
 E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/count_if.dir
+E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/sort.dir
+E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/random_shuffle.dir
+E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/merge.dir
 E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/rebuild_cache.dir
