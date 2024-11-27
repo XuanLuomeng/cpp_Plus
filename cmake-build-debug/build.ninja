@@ -2624,6 +2624,346 @@ build merge.exe: CXX_EXECUTABLE_LINKER__merge_Debug CMakeFiles/merge.dir/cources
   TARGET_IMPLIB = libmerge.dll.a
   TARGET_PDB = merge.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target reverse
+
+
+#############################################
+# Order-only phony target for reverse
+
+build cmake_object_order_depends_target_reverse: phony || .
+
+build CMakeFiles/reverse.dir/cources/standard_template_library/functional_sort/reverse.cpp.obj: CXX_COMPILER__reverse_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/functional_sort/reverse.cpp || cmake_object_order_depends_target_reverse
+  DEP_FILE = CMakeFiles\reverse.dir\cources\standard_template_library\functional_sort\reverse.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\reverse.dir
+  OBJECT_FILE_DIR = CMakeFiles\reverse.dir\cources\standard_template_library\functional_sort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target reverse
+
+
+#############################################
+# Link the executable reverse.exe
+
+build reverse.exe: CXX_EXECUTABLE_LINKER__reverse_Debug CMakeFiles/reverse.dir/cources/standard_template_library/functional_sort/reverse.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\reverse.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = reverse.exe
+  TARGET_IMPLIB = libreverse.dll.a
+  TARGET_PDB = reverse.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target copy
+
+
+#############################################
+# Order-only phony target for copy
+
+build cmake_object_order_depends_target_copy: phony || .
+
+build CMakeFiles/copy.dir/cources/standard_template_library/functional_copy_replace/copy.cpp.obj: CXX_COMPILER__copy_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/functional_copy_replace/copy.cpp || cmake_object_order_depends_target_copy
+  DEP_FILE = CMakeFiles\copy.dir\cources\standard_template_library\functional_copy_replace\copy.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\copy.dir
+  OBJECT_FILE_DIR = CMakeFiles\copy.dir\cources\standard_template_library\functional_copy_replace
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target copy
+
+
+#############################################
+# Link the executable copy.exe
+
+build copy.exe: CXX_EXECUTABLE_LINKER__copy_Debug CMakeFiles/copy.dir/cources/standard_template_library/functional_copy_replace/copy.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\copy.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = copy.exe
+  TARGET_IMPLIB = libcopy.dll.a
+  TARGET_PDB = copy.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target replace
+
+
+#############################################
+# Order-only phony target for replace
+
+build cmake_object_order_depends_target_replace: phony || .
+
+build CMakeFiles/replace.dir/cources/standard_template_library/functional_copy_replace/replace.cpp.obj: CXX_COMPILER__replace_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/functional_copy_replace/replace.cpp || cmake_object_order_depends_target_replace
+  DEP_FILE = CMakeFiles\replace.dir\cources\standard_template_library\functional_copy_replace\replace.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\replace.dir
+  OBJECT_FILE_DIR = CMakeFiles\replace.dir\cources\standard_template_library\functional_copy_replace
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target replace
+
+
+#############################################
+# Link the executable replace.exe
+
+build replace.exe: CXX_EXECUTABLE_LINKER__replace_Debug CMakeFiles/replace.dir/cources/standard_template_library/functional_copy_replace/replace.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\replace.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = replace.exe
+  TARGET_IMPLIB = libreplace.dll.a
+  TARGET_PDB = replace.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target replace_if
+
+
+#############################################
+# Order-only phony target for replace_if
+
+build cmake_object_order_depends_target_replace_if: phony || .
+
+build CMakeFiles/replace_if.dir/cources/standard_template_library/functional_copy_replace/replace_if.cpp.obj: CXX_COMPILER__replace_if_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/functional_copy_replace/replace_if.cpp || cmake_object_order_depends_target_replace_if
+  DEP_FILE = CMakeFiles\replace_if.dir\cources\standard_template_library\functional_copy_replace\replace_if.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\replace_if.dir
+  OBJECT_FILE_DIR = CMakeFiles\replace_if.dir\cources\standard_template_library\functional_copy_replace
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target replace_if
+
+
+#############################################
+# Link the executable replace_if.exe
+
+build replace_if.exe: CXX_EXECUTABLE_LINKER__replace_if_Debug CMakeFiles/replace_if.dir/cources/standard_template_library/functional_copy_replace/replace_if.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\replace_if.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = replace_if.exe
+  TARGET_IMPLIB = libreplace_if.dll.a
+  TARGET_PDB = replace_if.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target swap
+
+
+#############################################
+# Order-only phony target for swap
+
+build cmake_object_order_depends_target_swap: phony || .
+
+build CMakeFiles/swap.dir/cources/standard_template_library/functional_copy_replace/swap.cpp.obj: CXX_COMPILER__swap_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/functional_copy_replace/swap.cpp || cmake_object_order_depends_target_swap
+  DEP_FILE = CMakeFiles\swap.dir\cources\standard_template_library\functional_copy_replace\swap.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\swap.dir
+  OBJECT_FILE_DIR = CMakeFiles\swap.dir\cources\standard_template_library\functional_copy_replace
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target swap
+
+
+#############################################
+# Link the executable swap.exe
+
+build swap.exe: CXX_EXECUTABLE_LINKER__swap_Debug CMakeFiles/swap.dir/cources/standard_template_library/functional_copy_replace/swap.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\swap.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = swap.exe
+  TARGET_IMPLIB = libswap.dll.a
+  TARGET_PDB = swap.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target accumulate
+
+
+#############################################
+# Order-only phony target for accumulate
+
+build cmake_object_order_depends_target_accumulate: phony || .
+
+build CMakeFiles/accumulate.dir/cources/standard_template_library/functional_arithmetic/accumulate.cpp.obj: CXX_COMPILER__accumulate_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/functional_arithmetic/accumulate.cpp || cmake_object_order_depends_target_accumulate
+  DEP_FILE = CMakeFiles\accumulate.dir\cources\standard_template_library\functional_arithmetic\accumulate.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\accumulate.dir
+  OBJECT_FILE_DIR = CMakeFiles\accumulate.dir\cources\standard_template_library\functional_arithmetic
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target accumulate
+
+
+#############################################
+# Link the executable accumulate.exe
+
+build accumulate.exe: CXX_EXECUTABLE_LINKER__accumulate_Debug CMakeFiles/accumulate.dir/cources/standard_template_library/functional_arithmetic/accumulate.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\accumulate.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = accumulate.exe
+  TARGET_IMPLIB = libaccumulate.dll.a
+  TARGET_PDB = accumulate.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target fill
+
+
+#############################################
+# Order-only phony target for fill
+
+build cmake_object_order_depends_target_fill: phony || .
+
+build CMakeFiles/fill.dir/cources/standard_template_library/functional_arithmetic/fill.cpp.obj: CXX_COMPILER__fill_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/functional_arithmetic/fill.cpp || cmake_object_order_depends_target_fill
+  DEP_FILE = CMakeFiles\fill.dir\cources\standard_template_library\functional_arithmetic\fill.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\fill.dir
+  OBJECT_FILE_DIR = CMakeFiles\fill.dir\cources\standard_template_library\functional_arithmetic
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fill
+
+
+#############################################
+# Link the executable fill.exe
+
+build fill.exe: CXX_EXECUTABLE_LINKER__fill_Debug CMakeFiles/fill.dir/cources/standard_template_library/functional_arithmetic/fill.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\fill.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = fill.exe
+  TARGET_IMPLIB = libfill.dll.a
+  TARGET_PDB = fill.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target set_intersection
+
+
+#############################################
+# Order-only phony target for set_intersection
+
+build cmake_object_order_depends_target_set_intersection: phony || .
+
+build CMakeFiles/set_intersection.dir/cources/standard_template_library/functional_set/set_intersection.cpp.obj: CXX_COMPILER__set_intersection_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/functional_set/set_intersection.cpp || cmake_object_order_depends_target_set_intersection
+  DEP_FILE = CMakeFiles\set_intersection.dir\cources\standard_template_library\functional_set\set_intersection.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\set_intersection.dir
+  OBJECT_FILE_DIR = CMakeFiles\set_intersection.dir\cources\standard_template_library\functional_set
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target set_intersection
+
+
+#############################################
+# Link the executable set_intersection.exe
+
+build set_intersection.exe: CXX_EXECUTABLE_LINKER__set_intersection_Debug CMakeFiles/set_intersection.dir/cources/standard_template_library/functional_set/set_intersection.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\set_intersection.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = set_intersection.exe
+  TARGET_IMPLIB = libset_intersection.dll.a
+  TARGET_PDB = set_intersection.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target set_union
+
+
+#############################################
+# Order-only phony target for set_union
+
+build cmake_object_order_depends_target_set_union: phony || .
+
+build CMakeFiles/set_union.dir/cources/standard_template_library/functional_set/set_union.cpp.obj: CXX_COMPILER__set_union_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/functional_set/set_union.cpp || cmake_object_order_depends_target_set_union
+  DEP_FILE = CMakeFiles\set_union.dir\cources\standard_template_library\functional_set\set_union.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\set_union.dir
+  OBJECT_FILE_DIR = CMakeFiles\set_union.dir\cources\standard_template_library\functional_set
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target set_union
+
+
+#############################################
+# Link the executable set_union.exe
+
+build set_union.exe: CXX_EXECUTABLE_LINKER__set_union_Debug CMakeFiles/set_union.dir/cources/standard_template_library/functional_set/set_union.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\set_union.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = set_union.exe
+  TARGET_IMPLIB = libset_union.dll.a
+  TARGET_PDB = set_union.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target set_difference
+
+
+#############################################
+# Order-only phony target for set_difference
+
+build cmake_object_order_depends_target_set_difference: phony || .
+
+build CMakeFiles/set_difference.dir/cources/standard_template_library/functional_set/set_difference.cpp.obj: CXX_COMPILER__set_difference_unscanned_Debug E$:/Cproject/cpp_Plus/cources/standard_template_library/functional_set/set_difference.cpp || cmake_object_order_depends_target_set_difference
+  DEP_FILE = CMakeFiles\set_difference.dir\cources\standard_template_library\functional_set\set_difference.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IE:/Cproject/cpp_Plus/headers -IE:/Cproject/cpp_Plus/INTERFACE
+  OBJECT_DIR = CMakeFiles\set_difference.dir
+  OBJECT_FILE_DIR = CMakeFiles\set_difference.dir\cources\standard_template_library\functional_set
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target set_difference
+
+
+#############################################
+# Link the executable set_difference.exe
+
+build set_difference.exe: CXX_EXECUTABLE_LINKER__set_difference_Debug CMakeFiles/set_difference.dir/cources/standard_template_library/functional_set/set_difference.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\set_difference.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = set_difference.exe
+  TARGET_IMPLIB = libset_difference.dll.a
+  TARGET_PDB = set_difference.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2652,6 +2992,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build MyArray: phony MyArray.exe
 
+build accumulate: phony accumulate.exe
+
 build adjacent_find: phony adjacent_find.exe
 
 build binary_search: phony binary_search.exe
@@ -2663,6 +3005,8 @@ build container_nest: phony container_nest.exe
 build container_save_data: phony container_save_data.exe
 
 build container_save_person_data: phony container_save_person_data.exe
+
+build copy: phony copy.exe
 
 build count: phony count.exe
 
@@ -2681,6 +3025,8 @@ build deque_sort: phony deque_sort.exe
 build deque_structure: phony deque_structure.exe
 
 build employee_grouping: phony employee_grouping.exe
+
+build fill: phony fill.exe
 
 build find: phony find.exe
 
@@ -2728,19 +3074,31 @@ build queue_element: phony queue_element.exe
 
 build random_shuffle: phony random_shuffle.exe
 
+build replace: phony replace.exe
+
+build replace_if: phony replace_if.exe
+
+build reverse: phony reverse.exe
+
 build score: phony score.exe
 
 build set_construct: phony set_construct.exe
 
+build set_difference: phony set_difference.exe
+
 build set_find_count: phony set_find_count.exe
 
 build set_insert_erase: phony set_insert_erase.exe
+
+build set_intersection: phony set_intersection.exe
 
 build set_multiset_diff: phony set_multiset_diff.exe
 
 build set_size_swap: phony set_size_swap.exe
 
 build set_sort: phony set_sort.exe
+
+build set_union: phony set_union.exe
 
 build sort: phony sort.exe
 
@@ -2761,6 +3119,8 @@ build string_find_replace: phony string_find_replace.exe
 build string_insert_erase: phony string_insert_erase.exe
 
 build string_substr: phony string_substr.exe
+
+build swap: phony swap.exe
 
 build template_class: phony template_class.exe
 
@@ -2810,7 +3170,7 @@ build vector_swap: phony vector_swap.exe
 #############################################
 # Folder: E:/Cproject/cpp_Plus/cmake-build-debug
 
-build all: phony templete_element.exe templete_sort.exe template_regulation.exe template_lemit.exe template_class.exe template_class_function.exe template_classfunction_creation.exe template_class_as_func_para.exe template_class_extend.exe template_class_outer_func.exe template_class_divide.exe template_class_friend.exe MyArray.exe container_save_data.exe container_save_person_data.exe container_nest.exe string_element.exe string_assign.exe string_append.exe string_find_replace.exe string_compare.exe string_at.exe string_insert_erase.exe string_substr.exe vector_structure.exe vector_assign.exe vector_capacity_size.exe vector_insert_erase.exe vector_at.exe vector_swap.exe vector_reserve.exe deque_structure.exe deque_assign.exe deque_compare.exe deque_insert_erase.exe deque_at.exe deque_sort.exe score.exe stack_element.exe queue_element.exe list_element.exe list_construct.exe list_assign_swap.exe list_size.exe list_insert_clear.exe list_get.exe list_sort_reverse.exe list_sort_case.exe set_construct.exe set_size_swap.exe set_insert_erase.exe set_find_count.exe set_multiset_diff.exe pair_consturct.exe set_sort.exe map_element.exe map_consturct.exe map_size_swap.exe map_insert_erase.exe map_find_count.exe map_sort.exe employee_grouping.exe function_object_element.exe predicate.exe build-in_function_object.exe for_each.exe transform.exe find.exe find_if.exe adjacent_find.exe binary_search.exe count.exe count_if.exe sort.exe random_shuffle.exe merge.exe
+build all: phony templete_element.exe templete_sort.exe template_regulation.exe template_lemit.exe template_class.exe template_class_function.exe template_classfunction_creation.exe template_class_as_func_para.exe template_class_extend.exe template_class_outer_func.exe template_class_divide.exe template_class_friend.exe MyArray.exe container_save_data.exe container_save_person_data.exe container_nest.exe string_element.exe string_assign.exe string_append.exe string_find_replace.exe string_compare.exe string_at.exe string_insert_erase.exe string_substr.exe vector_structure.exe vector_assign.exe vector_capacity_size.exe vector_insert_erase.exe vector_at.exe vector_swap.exe vector_reserve.exe deque_structure.exe deque_assign.exe deque_compare.exe deque_insert_erase.exe deque_at.exe deque_sort.exe score.exe stack_element.exe queue_element.exe list_element.exe list_construct.exe list_assign_swap.exe list_size.exe list_insert_clear.exe list_get.exe list_sort_reverse.exe list_sort_case.exe set_construct.exe set_size_swap.exe set_insert_erase.exe set_find_count.exe set_multiset_diff.exe pair_consturct.exe set_sort.exe map_element.exe map_consturct.exe map_size_swap.exe map_insert_erase.exe map_find_count.exe map_sort.exe employee_grouping.exe function_object_element.exe predicate.exe build-in_function_object.exe for_each.exe transform.exe find.exe find_if.exe adjacent_find.exe binary_search.exe count.exe count_if.exe sort.exe random_shuffle.exe merge.exe reverse.exe copy.exe replace.exe replace_if.exe swap.exe accumulate.exe fill.exe set_intersection.exe set_union.exe set_difference.exe
 
 # =============================================================================
 # Built-in targets

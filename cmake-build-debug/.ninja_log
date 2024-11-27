@@ -74,6 +74,7 @@
 513	628	7510510372284192	deque_structure.exe	a300b155e5d94c52
 2	514	7508869994769483	CMakeFiles/vector_reserve.dir/cources/standard_template_library/vector_container/vector_reserve.cpp.obj	8e0571919027c4d9
 3	553	7533019901527186	CMakeFiles/map_find_count.dir/cources/standard_template_library/map_container/map_find_count.cpp.obj	15b850e10f38664b
+657	824	7543398096018721	merge.exe	7a216c88056f46c7
 515	652	7508869999900377	vector_reserve.exe	90e11064dd908569
 3	433	7532995847791101	CMakeFiles/pair_consturct.dir/cources/standard_template_library/pair/pair_consturct.cpp.obj	b3d455fdeef2f1db
 5	512	7510510367207714	CMakeFiles/deque_structure.dir/cources/standard_template_library/deque_container/deque_structure.cpp.obj	991479887a3c7c77
@@ -94,6 +95,7 @@
 496	607	7531378728514357	list_construct.exe	ca1cb60e5ba81857
 3	515	7531381027070117	CMakeFiles/list_assign_swap.dir/cources/standard_template_library/list_container/list_assign_swap.cpp.obj	acfbb322dae446dc
 515	640	7531381032201022	list_assign_swap.exe	2abd126b1c72a282
+586	716	7543421084882629	fill.exe	ba54067bee6fa669
 5	464	7531382694639494	CMakeFiles/list_size.dir/cources/standard_template_library/list_container/list_size.cpp.obj	9bae592a2ac5e674
 464	580	7531382699230306	list_size.exe	74ee226ff90bfa75
 7	633	7535666410137415	CMakeFiles/find.dir/cources/standard_template_library/functional_algorithm/find.cpp.obj	f994e832343105fa
@@ -107,6 +109,7 @@
 522	648	7531400766331484	list_sort_case.exe	f44b8aaa207f5561
 3	840	7532983227390344	CMakeFiles/set_construct.dir/cources/standard_template_library/set_container/set_construct.cpp.obj	1a393e8f14b20675
 841	1034	7532983235768054	set_construct.exe	d381e4a96059b727
+550	669	7543402678640518	replace.exe	cda56569dbcd1bfd
 5	672	7532986760447499	CMakeFiles/set_size_swap.dir/cources/standard_template_library/set_container/set_size_swap.cpp.obj	4c8c8e409ec9935d
 673	819	7532986767128289	set_size_swap.exe	9f402d0180530b56
 3	507	7532988630572649	CMakeFiles/set_insert_erase.dir/cources/standard_template_library/set_container/set_insert_erase.cpp.obj	e1f439e4c6cff3d
@@ -144,3 +147,22 @@
 548	666	7538311855828282	count_if.exe	a7f3ec6c76508b61
 720	875	7543392959157951	sort.exe	220e287f90e8ac4a
 654	793	7543394821991448	random_shuffle.exe	782e81471f43c45c
+6	656	7543398089517602	CMakeFiles/merge.dir/cources/standard_template_library/functional_sort/merge.cpp.obj	597c3a16d1763ef2
+5	605	7543399593985159	CMakeFiles/reverse.dir/cources/standard_template_library/functional_sort/reverse.cpp.obj	616bc8a25dcee78
+606	729	7543399599996208	reverse.exe	ca2722c05bf4d93a
+4	549	7543400868770338	CMakeFiles/copy.dir/cources/standard_template_library/functional_copy_replace/copy.cpp.obj	2fe109913e07720f
+550	677	7543400874221284	copy.exe	5f66488cbe423d55
+5	550	7543402673179571	CMakeFiles/replace.dir/cources/standard_template_library/functional_copy_replace/replace.cpp.obj	c5c5aa6df0f16cf8
+7	548	7543415395149074	CMakeFiles/replace_if.dir/cources/standard_template_library/functional_copy_replace/replace_if.cpp.obj	6169adc03d00b3fd
+549	663	7543415400570031	replace_if.exe	dc2539e1f0d823db
+7	545	7543416421008087	CMakeFiles/swap.dir/cources/standard_template_library/functional_copy_replace/swap.cpp.obj	a62c4fe69b716bf4
+545	663	7543416426389030	swap.exe	c70bfab9b0bafd95
+8	502	7543419824005063	CMakeFiles/accumulate.dir/cources/standard_template_library/functional_arithmetic/accumulate.cpp.obj	5258226af0968b83
+503	618	7543419828955934	accumulate.exe	607b4274de6338dc
+4	585	7543421079066609	CMakeFiles/fill.dir/cources/standard_template_library/functional_arithmetic/fill.cpp.obj	c4693a01ab7493f7
+5	609	7543425116728604	CMakeFiles/set_intersection.dir/cources/standard_template_library/functional_set/set_intersection.cpp.obj	5970f26cd46b795a
+610	748	7543425122774676	set_intersection.exe	8dab2c0161264cb6
+11	570	7543427250430526	CMakeFiles/set_union.dir/cources/standard_template_library/functional_set/set_union.cpp.obj	aa19383c4135cc8e
+571	692	7543427256021511	set_union.exe	684f486ccaaf721e
+5	771	7543428586229597	CMakeFiles/set_difference.dir/cources/standard_template_library/functional_set/set_difference.cpp.obj	cb43c437c6055214
+772	996	7543428593900949	set_difference.exe	fddaa3bd3c82c1dc

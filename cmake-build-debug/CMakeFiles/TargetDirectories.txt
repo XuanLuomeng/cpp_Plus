@@ -74,5 +74,15 @@ E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/count_if.dir
 E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/sort.dir
 E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/random_shuffle.dir
 E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/merge.dir
+E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/reverse.dir
+E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/copy.dir
+E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/replace.dir
+E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/replace_if.dir
+E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/swap.dir
+E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/accumulate.dir
+E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/fill.dir
+E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/set_intersection.dir
+E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/set_union.dir
+E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/set_difference.dir
 E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Cproject/cpp_Plus/cmake-build-debug/CMakeFiles/rebuild_cache.dir
